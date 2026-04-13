@@ -24,102 +24,102 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260407@school
+UID:lunch-gluten_free-en-20260407@school
 DTSTART;TZID=Europe/Madrid:20260407T130000
 DTEND;TZID=Europe/Madrid:20260407T140000
-SUMMARY:🍽️ School Lunch (GF) - Tue 7 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nStewed lentils with vegetables\n🍽️ MAIN COURSE:\nMeatballs with vegetables\n🥬 SALAD:\nLettuce\, sweetcorn and soy\n🍮 DESSERT:\n"La Fageda" yogurt
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nBraised lentils with vegetables\n\n🍽️ Main Course:\nMeatballs with vegetables / Lettuce\, corn and soy\n\n🍮 Dessert:\nYogurt "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Stewed lentils / Meatballs — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Braised lentils / Meatballs — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260408@school
+UID:lunch-gluten_free-en-20260408@school
 DTSTART;TZID=Europe/Madrid:20260408T130000
 DTEND;TZID=Europe/Madrid:20260408T140000
-SUMMARY:🍽️ School Lunch (GF) - Wed 8 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nWholegrain noodles with vegetables and soy sauce\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, tomato and soy\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nWhole wheat pasta with vegetables and soy sauce\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, tomato and soy\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Wholegrain noodles / French omelette — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Whole wheat pasta / Plain omelet / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260409@school
+UID:lunch-gluten_free-en-20260409@school
 DTSTART;TZID=Europe/Madrid:20260409T130000
 DTEND;TZID=Europe/Madrid:20260409T140000
-SUMMARY:🍽️ School Lunch (GF) - Thu 9 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nRice paella with artichokes and vegetables\n🍽️ MAIN COURSE:\nBaked chicken wings\n🥬 SALAD:\nLettuce\, carrot and olives\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nRice paella with artichokes and vegetables\n\n🍽️ Main Course:\nBaked chicken wings / Lettuce\, carrot and olives\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Rice paella / Baked chicken wings — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Rice paella / Baked chicken wings / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260410@school
+UID:lunch-gluten_free-en-20260410@school
 DTSTART;TZID=Europe/Madrid:20260410T130000
 DTEND;TZID=Europe/Madrid:20260410T140000
-SUMMARY:🍽️ School Lunch (GF) - Fri 10 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nSeasonal vegetable minestrone\n🍽️ MAIN COURSE:\nFish with green sauce\n🥬 SALAD:\nLettuce\, onion and olives\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nSeasonal vegetable soup\n\n🍽️ Main Course:\nFish with green sauce / Lettuce\, onion and olives\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Seasonal vegetable minestrone / Fish — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Seasonal vegetable soup / Fish — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260413@school
+UID:lunch-gluten_free-en-20260413@school
 DTSTART;TZID=Europe/Madrid:20260413T130000
 DTEND;TZID=Europe/Madrid:20260413T140000
-SUMMARY:🍽️ School Lunch (GF) - Mon 13 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nRice with fresh tomato sauce\n🍽️ MAIN COURSE:\nBattered squid rings\n🥬 SALAD:\nLettuce\, apple and sweetcorn\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nRice with natural tomato sauce\n\n🍽️ Main Course:\nBreaded squid / Lettuce\, apple and corn\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Rice / Battered squid rings — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Rice / Breaded squid / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260414@school
+UID:lunch-gluten_free-en-20260414@school
 DTSTART;TZID=Europe/Madrid:20260414T130000
 DTEND;TZID=Europe/Madrid:20260414T140000
-SUMMARY:🍽️ School Lunch (GF) - Tue 14 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nCasserole noodles with vegetables\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, orange and sunflower seeds\n🍮 DESSERT:\n"La Fageda" yogurt
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nCasserole noodles with vegetables\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, orange and sunflower seeds\n\n🍮 Dessert:\nYogurt "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Casserole noodles / French omelette — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Casserole noodles / Plain omelet / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260415@school
+UID:lunch-gluten_free-en-20260415@school
 DTSTART;TZID=Europe/Madrid:20260415T130000
 DTEND;TZID=Europe/Madrid:20260415T140000
-SUMMARY:🍽️ School Lunch (GF) - Wed 15 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nStewed lentils with vegetables and quinoa\n🍽️ MAIN COURSE:\nFish Biscay style\n🥬 SALAD:\nLettuce\, tomato\, soy\, onion and olives\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nBraised lentils with vegetables and quinoa\n\n🍽️ Main Course:\nFish Biscayan style / Lettuce\, tomato\, soy\, onion and olives\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Stewed lentils / Fish Biscay style — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Braised lentils / Fish Biscayan style / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260416@school
+UID:lunch-gluten_free-en-20260416@school
 DTSTART;TZID=Europe/Madrid:20260416T130000
 DTEND;TZID=Europe/Madrid:20260416T140000
-SUMMARY:🍽️ School Lunch (GF) - Thu 16 Apr - ⭐ FAVOURITE DAY
-DESCRIPTION:⭐ FAVOURITE DAY\n🥗 FIRST COURSE:\nAlphabet soup\n🍽️ MAIN COURSE:\nBreaded chicken with potatoes\n🍮 DESSERT:\nGluten-free sweet
+SUMMARY:🍽️ El Pi lunch - Gluten free - ⭐ Favourite Day ⭐
+DESCRIPTION:⭐ Favourite Day\n🥗 First Course:\nAlphabet soup\n\n🍽️ Main Course:\nBreaded chicken with potatoes / Gluten-free dessert
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -128,102 +128,89 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260417@school
+UID:lunch-gluten_free-en-20260417@school
 DTSTART;TZID=Europe/Madrid:20260417T130000
 DTEND;TZID=Europe/Madrid:20260417T140000
-SUMMARY:🍽️ School Lunch (GF) - Fri 17 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nSeasonal vegetable cream soup\n🍽️ MAIN COURSE:\nRoast turkey with vegetables\n🥬 SALAD:\nLettuce\, carrot and soy\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nSeasonal vegetable cream\n\n🍽️ Main Course:\nRoasted turkey with vegetables / Lettuce\, carrot and soy\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Seasonal vegetable cream soup / Roast turkey — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Seasonal vegetable cream / Roasted turkey — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260420@school
+UID:lunch-gluten_free-en-20260420@school
 DTSTART;TZID=Europe/Madrid:20260420T130000
 DTEND;TZID=Europe/Madrid:20260420T140000
-SUMMARY:🍽️ School Lunch (GF) - Mon 20 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nBroccoli\, carrot\, potato and green beans with olive oil\n🍽️ MAIN COURSE:\nGrilled lean pork\n🥬 SALAD:\nLettuce\, grated carrot and olives\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nBroccoli\, carrot\, potato and green beans with olive oil\n\n🍽️ Main Course:\nLean pork grilled / Lettuce\, grated carrot with olives\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Broccoli / Grilled lean pork — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Broccoli / Lean pork grilled / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260421@school
+UID:lunch-gluten_free-en-20260421@school
 DTSTART;TZID=Europe/Madrid:20260421T130000
 DTEND;TZID=Europe/Madrid:20260421T140000
-SUMMARY:🍽️ School Lunch (GF) - Tue 21 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nMacaroni napoletana\n🍽️ MAIN COURSE:\nGrilled fish\n🥬 SALAD:\nLettuce\, tomato\, soy\, onion and olives\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nMacaroni Neapolitan\n\n🍽️ Main Course:\nGrilled fish / Lettuce\, tomato\, soy\, onion and olives\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Macaroni napoletana / Grilled fish — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Macaroni Neapolitan / Grilled fish / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260422@school
+UID:lunch-gluten_free-en-20260422@school
 DTSTART;TZID=Europe/Madrid:20260422T130000
 DTEND;TZID=Europe/Madrid:20260422T140000
-SUMMARY:🍽️ School Lunch (GF) - Wed 22 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nStewed chickpeas with potatoes\n🍽️ MAIN COURSE:\nRoast turkey with vegetables\n🥬 SALAD:\nSalad\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nBraised chickpeas with potatoes\n\n🍽️ Main Course:\nRoasted turkey with vegetables / Salad\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Stewed chickpeas / Roast turkey — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Braised chickpeas / Roasted turkey — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260423@school
-DTSTART;TZID=Europe/Madrid:20260423T130000
-DTEND;TZID=Europe/Madrid:20260423T140000
-SUMMARY:🍽️ School Lunch (GF) - Thu 23 Apr - 🌹 SANT JORDI
-DESCRIPTION:🌹 SANT JORDI\n🥗 FIRST COURSE:\nRice with fresh tomato sauce\n🍽️ MAIN COURSE:\nBaked chicken wings\n🥬 SALAD:\nLettuce\, carrot and soy\n🍮 DESSERT:\n"La Fageda" yogurt with toppings
-BEGIN:VALARM
-TRIGGER;RELATED=END:PT0S
-ACTION:DISPLAY
-DESCRIPTION:Lunch: Rice / Baked chicken wings — plan dinner to avoid repeats!
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:lunch-sg-en-20260424@school
+UID:lunch-gluten_free-en-20260424@school
 DTSTART;TZID=Europe/Madrid:20260424T130000
 DTEND;TZID=Europe/Madrid:20260424T140000
-SUMMARY:🍽️ School Lunch (GF) - Fri 24 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nTrinxat with cabbage\, potato and diced turkey\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, sweetcorn and soy\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nTrinxat with cabbage\, potato and turkey cubes\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, corn and soy
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Trinxat / French omelette — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Trinxat / Plain omelet / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260427@school
+UID:lunch-gluten_free-en-20260427@school
 DTSTART;TZID=Europe/Madrid:20260427T130000
 DTEND;TZID=Europe/Madrid:20260427T140000
-SUMMARY:🍽️ School Lunch (GF) - Mon 27 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nStewed lentils with vegetables\n🍽️ MAIN COURSE:\nRoasted country sausage with onion\n🥬 SALAD:\nLettuce\, organic grated carrot\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nBraised lentils with vegetables\n\n🍽️ Main Course:\nCountry sausage roasted with onion / Lettuce\, organic grated carrot\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Stewed lentils / Roasted country sausage — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Braised lentils / Country sausage roasted — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260428@school
+UID:lunch-gluten_free-en-20260428@school
 DTSTART;TZID=Europe/Madrid:20260428T130000
 DTEND;TZID=Europe/Madrid:20260428T140000
-SUMMARY:🍽️ School Lunch (GF) - Tue 28 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nGreen beans with carrot and cauliflower\n🍽️ MAIN COURSE:\nLemon chicken with garlic and parsley\, baked\n🥬 SALAD:\nLettuce\, apple and sweetcorn\n🍮 DESSERT:\n"La Fageda" yogurt
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nGreen beans with carrot and cauliflower\n\n🍽️ Main Course:\nLemon chicken with garlic and parsley baked / Lettuce\, apple and corn\n\n🍮 Dessert:\nYogurt "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -232,15 +219,15 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-en-20260429@school
+UID:lunch-gluten_free-en-20260429@school
 DTSTART;TZID=Europe/Madrid:20260429T130000
 DTEND;TZID=Europe/Madrid:20260429T140000
-SUMMARY:🍽️ School Lunch (GF) - Wed 29 Apr
-DESCRIPTION:🥗 FIRST COURSE:\nThree-delicacies rice (carrot\, peas\, turkey and sweetcorn)\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, apple\, cucumber\n🍮 DESSERT:\nSeasonal fruit
+SUMMARY:🍽️ El Pi lunch - Gluten free
+DESCRIPTION:🥗 First Course:\nThree delights rice (carrot\, peas\, turkey and corn)\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, apple\, cucumber\n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Three-delicacies rice (carrot / French omelette — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Three delights rice (carrot / Plain omelet / Lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
