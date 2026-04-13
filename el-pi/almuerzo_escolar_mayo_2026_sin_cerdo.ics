@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Almuerzo Escolar - Mayo 2026 - Sin Cerdo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Almuerzo Escolar - Mayo 2026 - Sin Cerdo
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-no_pork-es-20260505@school
+DTSTART;TZID=Europe/Madrid:20260505T130000
+DTEND;TZID=Europe/Madrid:20260505T140000
+SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
+DESCRIPTION:🥗 Primer Plato:\nArroz con tomate\n\n🍽️ Segundo Plato:\nPechuga de pollo a la plancha\n\n🍮 Postre:\nFruta de temporada
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Pechuga de pollo a la plancha — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-es-20260506@school
+DTSTART;TZID=Europe/Madrid:20260506T130000
+DTEND;TZID=Europe/Madrid:20260506T140000
+SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
+DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas\n\n🍽️ Segundo Plato:\nTortilla francesa\n\n🍮 Postre:\nYogur
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Lentejas estofadas / Tortilla francesa — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
