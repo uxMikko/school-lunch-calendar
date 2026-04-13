@@ -1,0 +1,247 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Almuerzo Escolar - Abril 2026 - Estándar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Almuerzo Escolar - Abril 2026 - Estándar
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260407@school
+DTSTART;TZID=Europe/Madrid:20260407T130000
+DTEND;TZID=Europe/Madrid:20260407T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mar 7 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras\n🍽️ SEGUNDO PLATO:\nAlbóndigas con verduras\n🥬 ENSALADA:\nLechuga\, maíz y soja\n🍮 POSTRE:\nYogur "La Fageda"\n🌙 CENA SUGERIDA:\nSopa y pescado azul
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Lentejas estofadas / Albóndigas — Cena: Sopa y pescado azul
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260408@school
+DTSTART;TZID=Europe/Madrid:20260408T130000
+DTEND;TZID=Europe/Madrid:20260408T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mié 8 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nTallarines integrales con verduras y salsa de soja\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, tomate y soja\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nArroz y verdura
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Tallarines integrales / Tortilla francesa — Cena: Arroz y verdura
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260409@school
+DTSTART;TZID=Europe/Madrid:20260409T130000
+DTEND;TZID=Europe/Madrid:20260409T140000
+SUMMARY:🍽️ Almuerzo Escolar - Jue 9 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nPaella de arroz con alcachofas y verduras\n🍽️ SEGUNDO PLATO:\nAlitas de pollo al horno\n🥬 ENSALADA:\nLechuga\, zanahoria y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nVerduras y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Paella de arroz / Alitas de pollo al horno — Cena: Verduras y pescado blanco
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260410@school
+DTSTART;TZID=Europe/Madrid:20260410T130000
+DTEND;TZID=Europe/Madrid:20260410T140000
+SUMMARY:🍽️ Almuerzo Escolar - Vie 10 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nMenestra de verduras de temporada\n🍽️ SEGUNDO PLATO:\nPescado con salsa verde\n🥬 ENSALADA:\nLechuga\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Menestra de verduras de temporada / Pescado — Cena: Ensalada y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260413@school
+DTSTART;TZID=Europe/Madrid:20260413T130000
+DTEND;TZID=Europe/Madrid:20260413T140000
+SUMMARY:🍽️ Almuerzo Escolar - Lun 13 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nArroz con salsa de tomate natural\n🍽️ SEGUNDO PLATO:\nCalamares a la romana\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y pescado
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Calamares a la romana — Cena: Ensalada y pescado
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260414@school
+DTSTART;TZID=Europe/Madrid:20260414T130000
+DTEND;TZID=Europe/Madrid:20260414T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mar 14 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nFideos en cazuela con verduras\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, naranja y pipas\n🍮 POSTRE:\nYogur "La Fageda"\n🌙 CENA SUGERIDA:\nEnsalada y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Fideos en cazuela / Tortilla francesa — Cena: Ensalada y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260415@school
+DTSTART;TZID=Europe/Madrid:20260415T130000
+DTEND;TZID=Europe/Madrid:20260415T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mié 15 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras y quinoa\n🍽️ SEGUNDO PLATO:\nPescado a la vizcaína\n🥬 ENSALADA:\nLechuga\, tomate\, soja\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nSopa y carne roja
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Lentejas estofadas / Pescado a la vizcaína — Cena: Sopa y carne roja
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260416@school
+DTSTART;TZID=Europe/Madrid:20260416T130000
+DTEND;TZID=Europe/Madrid:20260416T140000
+SUMMARY:🍽️ Almuerzo Escolar - Jue 16 Abr - ⭐ DÍA FAVORITO
+DESCRIPTION:⭐ DÍA FAVORITO\n🥗 PRIMER PLATO:\nSopa "Maravella"\n🍽️ SEGUNDO PLATO:\nPollo rebozado con patatas\n🍮 POSTRE:\nPastel casero\n🌙 CENA SUGERIDA:\nCrema de verduras y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Sopa "Maravella" / Pollo rebozado — Cena: Crema de verduras y pescado blanco
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260417@school
+DTSTART;TZID=Europe/Madrid:20260417T130000
+DTEND;TZID=Europe/Madrid:20260417T140000
+SUMMARY:🍽️ Almuerzo Escolar - Vie 17 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nCrema de verduras de temporada\n🍽️ SEGUNDO PLATO:\nCanelones gratinados\n🥬 ENSALADA:\nLechuga\, zanahoria y soja\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y huevo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Crema de verduras de temporada / Canelones gratinados — Cena: Ensalada y huevo
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260420@school
+DTSTART;TZID=Europe/Madrid:20260420T130000
+DTEND;TZID=Europe/Madrid:20260420T140000
+SUMMARY:🍽️ Almuerzo Escolar - Lun 20 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nBrócoli\, zanahoria\, patata y judía verde con aceite de oliva\n🍽️ SEGUNDO PLATO:\nCarne magra de cerdo a la plancha\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nSopa y carne roja
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Brócoli / Carne magra de cerdo a la plancha — Cena: Sopa y carne roja
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260421@school
+DTSTART;TZID=Europe/Madrid:20260421T130000
+DTEND;TZID=Europe/Madrid:20260421T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mar 21 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nMacarrones a la napolitana con queso\n🍽️ SEGUNDO PLATO:\nCroquetas de bacalao\n🥬 ENSALADA:\nLechuga\, tomate\, soja\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y huevo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Macarrones a la napolitana / Croquetas de bacalao — Cena: Ensalada y huevo
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260422@school
+DTSTART;TZID=Europe/Madrid:20260422T130000
+DTEND;TZID=Europe/Madrid:20260422T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mié 22 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nGarbanzos estofados con patatas\n🍽️ SEGUNDO PLATO:\nPavo asado con verduras acompañado de cuscús\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y pescado azul
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Garbanzos estofados / Pavo asado — Cena: Ensalada y pescado azul
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260423@school
+DTSTART;TZID=Europe/Madrid:20260423T130000
+DTEND;TZID=Europe/Madrid:20260423T140000
+SUMMARY:🍽️ Almuerzo Escolar - Jue 23 Abr - 🌹 SANT JORDI
+DESCRIPTION:🌹 SANT JORDI\n🥗 PRIMER PLATO:\nArroz con salsa de tomate natural\n🍽️ SEGUNDO PLATO:\nAlitas de pollo al horno\n🥬 ENSALADA:\nLechuga\, zanahoria y soja\n🍮 POSTRE:\nYogur "La Fageda" con topping
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Alitas de pollo al horno — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260424@school
+DTSTART;TZID=Europe/Madrid:20260424T130000
+DTEND;TZID=Europe/Madrid:20260424T140000
+SUMMARY:🍽️ Almuerzo Escolar - Vie 24 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nTrinxat con col\, patata y dados de pavo\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, maíz y soja\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Trinxat / Tortilla francesa — Cena: Ensalada y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260427@school
+DTSTART;TZID=Europe/Madrid:20260427T130000
+DTEND;TZID=Europe/Madrid:20260427T140000
+SUMMARY:🍽️ Almuerzo Escolar - Lun 27 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras\n🍽️ SEGUNDO PLATO:\nButifarra de pagès asada con cebolla\n🥬 ENSALADA:\nLechuga\, zanahoria rallada\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Lentejas estofadas / Butifarra de pagès asada — Cena: Ensalada y pescado blanco
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260428@school
+DTSTART;TZID=Europe/Madrid:20260428T130000
+DTEND;TZID=Europe/Madrid:20260428T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mar 28 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nJudía tierna con zanahoria y coliflor\n🍽️ SEGUNDO PLATO:\nPollo al limón con ajo y perejil al horno\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nYogur "La Fageda"\n🌙 CENA SUGERIDA:\nVerdura y huevo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Judía tierna / Pollo al limón — Cena: Verdura y huevo
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260429@school
+DTSTART;TZID=Europe/Madrid:20260429T130000
+DTEND;TZID=Europe/Madrid:20260429T140000
+SUMMARY:🍽️ Almuerzo Escolar - Mié 29 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nArroz tres delicias (zanahoria\, guisantes\, pavo y maíz)\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nEnsalada ECO / Lechuga\, manzana\, pepino\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nSopa y carne roja
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz tres delicias (zanahoria / Tortilla francesa — Cena: Sopa y carne roja
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

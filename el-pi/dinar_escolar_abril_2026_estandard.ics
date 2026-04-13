@@ -1,0 +1,247 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dinar Escolar - Abril 2026 - Estàndard//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dinar Escolar - Abril 2026 - Estàndard
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260407@school
+DTSTART;TZID=Europe/Madrid:20260407T130000
+DTEND;TZID=Europe/Madrid:20260407T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 7 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nLlenties estofades amb verdures\n🍽️ SEGON PLAT:\nMandonguilles amb verdures\n🥬 AMANIDA:\nEnciam\, blat de moro i soja\n🍮 POSTRES:\nIogurt "La Fageda"\n🌙 SOPAR SUGGERIT:\nSopa i peix blau
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Llenties estofades / Mandonguilles — Sopar: Sopa i peix blau
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260408@school
+DTSTART;TZID=Europe/Madrid:20260408T130000
+DTEND;TZID=Europe/Madrid:20260408T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 8 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nTallarines integrals amb verdures i salsa de soja\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, tomàquet i soja\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nArròs i verdura
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Tallarines integrals / Truita tombada — Sopar: Arròs i verdura
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260409@school
+DTSTART;TZID=Europe/Madrid:20260409T130000
+DTEND;TZID=Europe/Madrid:20260409T140000
+SUMMARY:🍽️ Dinar Escolar - Dij. 9 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nPaella d'arròs amb carxofes i verdures\n🍽️ SEGON PLAT:\nAletes de pollastre al forn\n🥬 AMANIDA:\nEnciam\, pastanaga i olives\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nVerdures i peix blanc
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Paella d'arròs / Aletes de pollastre al forn — Sopar: Verdures i peix blanc
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260410@school
+DTSTART;TZID=Europe/Madrid:20260410T130000
+DTEND;TZID=Europe/Madrid:20260410T140000
+SUMMARY:🍽️ Dinar Escolar - Div. 10 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nMinestra de verdures de temporada\n🍽️ SEGON PLAT:\nPeix amb salsa verda\n🥬 AMANIDA:\nEnciam\, ceba i olives\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i carn blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Minestra de verdures de temporada / Peix — Sopar: Amanida i carn blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260413@school
+DTSTART;TZID=Europe/Madrid:20260413T130000
+DTEND;TZID=Europe/Madrid:20260413T140000
+SUMMARY:🍽️ Dinar Escolar - Dll. 13 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nArròs amb salsa de tomàquet natural\n🍽️ SEGON PLAT:\nCalamars a la romana\n🥬 AMANIDA:\nEnciam\, poma i blat de moro\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i peix
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs / Calamars a la romana — Sopar: Amanida i peix
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260414@school
+DTSTART;TZID=Europe/Madrid:20260414T130000
+DTEND;TZID=Europe/Madrid:20260414T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 14 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nFideus a la cassola amb verdures\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, taronja i pipes\n🍮 POSTRES:\nIogurt "La Fageda"\n🌙 SOPAR SUGGERIT:\nAmanida i carn blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Fideus a la cassola / Truita tombada — Sopar: Amanida i carn blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260415@school
+DTSTART;TZID=Europe/Madrid:20260415T130000
+DTEND;TZID=Europe/Madrid:20260415T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 15 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nLlenties estofades amb verdures i quinoa\n🍽️ SEGON PLAT:\nPeix a la biscaïna\n🥬 AMANIDA:\nEnciam\, tomàquet\, soja\, ceba i olives\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nSopa i carn vermella
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Llenties estofades / Peix a la biscaïna — Sopar: Sopa i carn vermella
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260416@school
+DTSTART;TZID=Europe/Madrid:20260416T130000
+DTEND;TZID=Europe/Madrid:20260416T140000
+SUMMARY:🍽️ Dinar Escolar - Dij. 16 Abr - ⭐ DIA PREFERIT
+DESCRIPTION:⭐ DIA PREFERIT\n🥗 PRIMER PLAT:\nSopa de "Maravella"\n🍽️ SEGON PLAT:\nPollastre arrebossat amb patates\n🍮 POSTRES:\nPastís casolà\n🌙 SOPAR SUGGERIT:\nCrema de verdures i peix blanc
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Sopa de "Maravella" / Pollastre arrebossat — Sopar: Crema de verdures i peix blanc
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260417@school
+DTSTART;TZID=Europe/Madrid:20260417T130000
+DTEND;TZID=Europe/Madrid:20260417T140000
+SUMMARY:🍽️ Dinar Escolar - Div. 17 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nCrema de verdures de temporada\n🍽️ SEGON PLAT:\nCanalons gratinats\n🥬 AMANIDA:\nEnciam\, pastanaga i soja\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i ou
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Crema de verdures de temporada / Canalons gratinats — Sopar: Amanida i ou
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260420@school
+DTSTART;TZID=Europe/Madrid:20260420T130000
+DTEND;TZID=Europe/Madrid:20260420T140000
+SUMMARY:🍽️ Dinar Escolar - Dll. 20 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nBròcoli\, pastanaga\, patata i mongeta verda amb oli d'oliva\n🍽️ SEGON PLAT:\nCarn magra de porc a la planxa\n🥬 AMANIDA:\nEnciam\, poma i blat de moro\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nSopa i carn vermella
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Bròcoli / Carn magra de porc a la planxa — Sopar: Sopa i carn vermella
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260421@school
+DTSTART;TZID=Europe/Madrid:20260421T130000
+DTEND;TZID=Europe/Madrid:20260421T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 21 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nMacarrons a la napolitana amb formatge\n🍽️ SEGON PLAT:\nCroquetes de bacallà\n🥬 AMANIDA:\nEnciam\, tomàquet\, soja\, ceba i olives\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i ou
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Macarrons a la napolitana / Croquetes de bacallà — Sopar: Amanida i ou
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260422@school
+DTSTART;TZID=Europe/Madrid:20260422T130000
+DTEND;TZID=Europe/Madrid:20260422T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 22 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nCigrons estofats amb patates\n🍽️ SEGON PLAT:\nGall dindi rostit amb verdures acompanyat de cuscús\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i peix blau
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Cigrons estofats / Gall dindi rostit — Sopar: Amanida i peix blau
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260423@school
+DTSTART;TZID=Europe/Madrid:20260423T130000
+DTEND;TZID=Europe/Madrid:20260423T140000
+SUMMARY:🍽️ Dinar Escolar - Dij. 23 Abr - 🌹 SANT JORDI
+DESCRIPTION:🌹 SANT JORDI\n🥗 PRIMER PLAT:\nArròs amb salsa de tomàquet natural\n🍽️ SEGON PLAT:\nAletes de pollastre al forn\n🥬 AMANIDA:\nEnciam\, pastanaga i soja\n🍮 POSTRES:\nIogurt "La Fageda" amb topping
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs / Aletes de pollastre al forn — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260424@school
+DTSTART;TZID=Europe/Madrid:20260424T130000
+DTEND;TZID=Europe/Madrid:20260424T140000
+SUMMARY:🍽️ Dinar Escolar - Div. 24 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nTrinxat amb col\, patata i daus de gall dindi\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, blat de moro i soja\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i carn blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Trinxat / Truita tombada — Sopar: Amanida i carn blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260427@school
+DTSTART;TZID=Europe/Madrid:20260427T130000
+DTEND;TZID=Europe/Madrid:20260427T140000
+SUMMARY:🍽️ Dinar Escolar - Dll. 27 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nLlenties estofades amb verdures\n🍽️ SEGON PLAT:\nBotifarra de pagès rostida amb ceba\n🥬 AMANIDA:\nEnciam\, pastanaga ratllada\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nAmanida i peix blanc
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Llenties estofades / Botifarra de pagès rostida — Sopar: Amanida i peix blanc
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260428@school
+DTSTART;TZID=Europe/Madrid:20260428T130000
+DTEND;TZID=Europe/Madrid:20260428T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 28 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nMongeta tendra amb pastanaga i coliflor\n🍽️ SEGON PLAT:\nPollastre a la llimona amb all i julivert al forn\n🥬 AMANIDA:\nEnciam\, poma i blat de moro\n🍮 POSTRES:\nIogurt "La Fageda"\n🌙 SOPAR SUGGERIT:\nVerdura i ou
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Mongeta tendra / Pollastre a la llimona — Sopar: Verdura i ou
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-ca-20260429@school
+DTSTART;TZID=Europe/Madrid:20260429T130000
+DTEND;TZID=Europe/Madrid:20260429T140000
+SUMMARY:🍽️ Dinar Escolar - Dim. 29 Abr
+DESCRIPTION:🥗 PRIMER PLAT:\nArròs tres delícies (pastanaga\, pèsols\, gall dindi i blat de moro)\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nAmanida ECO / Enciam\, poma\, cogombre\n🍮 POSTRES:\nFruita del temps\n🌙 SOPAR SUGGERIT:\nSopa i carn vermella
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs tres delícies (pastanaga / Truita tombada — Sopar: Sopa i carn vermella
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
