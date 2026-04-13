@@ -24,50 +24,50 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260407@school
+UID:lunch-gluten_free-ca-20260407@school
 DTSTART;TZID=Europe/Madrid:20260407T130000
 DTEND;TZID=Europe/Madrid:20260407T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 7 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nLlenties estofades amb verdures\n🍽️ SEGON PLAT:\nMandonguilles amb verdures\n🥬 AMANIDA:\nEnciam\, blat de moro i soja\n🍮 POSTRES:\nIogurt "La Fageda"
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nMandongilles amb verdures / Enciam\, blat de moro i soja\n\n🍮 Postres:\nIogurt "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Llenties estofades / Mandonguilles — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Llenties estofades / Mandongilles — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260408@school
+UID:lunch-gluten_free-ca-20260408@school
 DTSTART;TZID=Europe/Madrid:20260408T130000
 DTEND;TZID=Europe/Madrid:20260408T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 8 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nTallarines integrals amb verdures i salsa de soja\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, tomàquet i soja\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nTallarines integrals amb verdures i salsa de soja\n\n🍽️ Segon Plat:\nTruita tombada / Enciam\, tomàquet i soja\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Tallarines integrals / Truita tombada — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Tallarines integrals / Truita tombada / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260409@school
+UID:lunch-gluten_free-ca-20260409@school
 DTSTART;TZID=Europe/Madrid:20260409T130000
 DTEND;TZID=Europe/Madrid:20260409T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dij. 9 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nPaella d'arròs amb carxofes i verdures\n🍽️ SEGON PLAT:\nAletes de pollastre al forn\n🥬 AMANIDA:\nEnciam\, pastanaga i olives\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nPaella d'arròs amb carxofes i verdures\n\n🍽️ Segon Plat:\nAletes de pollastre al forn / Enciam\, pastanaga i olives\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Paella d'arròs / Aletes de pollastre al forn — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Paella d'arròs / Aletes de pollastre al forn / Encia — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260410@school
+UID:lunch-gluten_free-ca-20260410@school
 DTSTART;TZID=Europe/Madrid:20260410T130000
 DTEND;TZID=Europe/Madrid:20260410T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Div. 10 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nMinestra de verdura del temps\n🍽️ SEGON PLAT:\nPeix amb salsa verda\n🥬 AMANIDA:\nEnciam\, ceba i olives\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nMinestra de verdura del temps\n\n🍽️ Segon Plat:\nPeix amb salsa verda / Enciam\, ceba i olives\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -76,50 +76,50 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260413@school
+UID:lunch-gluten_free-ca-20260413@school
 DTSTART;TZID=Europe/Madrid:20260413T130000
 DTEND;TZID=Europe/Madrid:20260413T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dll. 13 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nArròs amb salsa de tomàquet natural\n🍽️ SEGON PLAT:\nCalamars a la romana\n🥬 AMANIDA:\nEnciam\, poma i blat de moro\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet natural\n\n🍽️ Segon Plat:\nCalamars a la romana / Enciam\, poma i blat de moro\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Arròs / Calamars a la romana — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Arròs / Calamars a la romana / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260414@school
+UID:lunch-gluten_free-ca-20260414@school
 DTSTART;TZID=Europe/Madrid:20260414T130000
 DTEND;TZID=Europe/Madrid:20260414T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 14 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nFideus a la cassola amb verdures\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, taronja i pipes\n🍮 POSTRES:\nIogurt "La Fageda"
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nFideus a la cassola amb verdures\n\n🍽️ Segon Plat:\nTruita tombada / Enciam\, taronja i pipes\n\n🍮 Postres:\nIogurt "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Fideus a la cassola / Truita tombada — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Fideus a la cassola / Truita tombada / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260415@school
+UID:lunch-gluten_free-ca-20260415@school
 DTSTART;TZID=Europe/Madrid:20260415T130000
 DTEND;TZID=Europe/Madrid:20260415T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 15 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nLlenties estofades amb verdures i quinoa\n🍽️ SEGON PLAT:\nPeix a la biscaïna\n🥬 AMANIDA:\nEnciam\, tomàquet\, soja\, ceba i olives\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures i quinoa\n\n🍽️ Segon Plat:\nPeix a la biscaina / Enciam\, tomàquet\, soja\, ceba i olives\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Llenties estofades / Peix a la biscaïna — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Llenties estofades / Peix a la biscaina / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260416@school
+UID:lunch-gluten_free-ca-20260416@school
 DTSTART;TZID=Europe/Madrid:20260416T130000
 DTEND;TZID=Europe/Madrid:20260416T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dij. 16 Abr - ⭐ DIA PREFERIT
-DESCRIPTION:⭐ DIA PREFERIT\n🥗 PRIMER PLAT:\nSopa de "lletres"\n🍽️ SEGON PLAT:\nPollastre arrebossat amb patates\n🍮 POSTRES:\nDolç sense gluten
+SUMMARY:🍽️ Dinar El Pi sense gluten - ⭐ Dia Preferit ⭐
+DESCRIPTION:⭐ Dia Preferit\n🥗 Primer Plat:\nSopa de "lletres"\n\n🍽️ Segon Plat:\nPollastre arrebossat amb patates / Dolç sense gluten
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -128,11 +128,11 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260417@school
+UID:lunch-gluten_free-ca-20260417@school
 DTSTART;TZID=Europe/Madrid:20260417T130000
 DTEND;TZID=Europe/Madrid:20260417T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Div. 17 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nCrema de verdures de temporada\n🍽️ SEGON PLAT:\nGall dindi rostit amb verdures\n🥬 AMANIDA:\nEnciam\, pastanaga i soja\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nCrema de verdures de temporada\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Enciam\, pastanaga i soja\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -141,37 +141,37 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260420@school
+UID:lunch-gluten_free-ca-20260420@school
 DTSTART;TZID=Europe/Madrid:20260420T130000
 DTEND;TZID=Europe/Madrid:20260420T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dll. 20 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nBròcoli\, pastanaga\, patata i mongeta verda amb oli d'oliva\n🍽️ SEGON PLAT:\nCarn magra de porc a la planxa\n🥬 AMANIDA:\nEnciam\, pastanaga ratllada amb olives\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nBròcoli\, pastanaga\, patata i mongeta verda amb oli d'oliva\n\n🍽️ Segon Plat:\nCarn magra de porc a la planxa / Enciam\, pastanaga ratllada amb olives\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Bròcoli / Carn magra de porc a la planxa — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Bròcoli / Carn magra de porc a la planxa / En — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260421@school
+UID:lunch-gluten_free-ca-20260421@school
 DTSTART;TZID=Europe/Madrid:20260421T130000
 DTEND;TZID=Europe/Madrid:20260421T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 21 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nMacarrons a la napolitana\n🍽️ SEGON PLAT:\nPeix a la planxa\n🥬 AMANIDA:\nEnciam\, tomàquet\, soja\, ceba i olives\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nMacarrons a la napolitana\n\n🍽️ Segon Plat:\nPeix a la planxa / Enciam\, tomàquet\, soja\, ceba i olives\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Macarrons a la napolitana / Peix a la planxa — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Macarrons a la napolitana / Peix a la planxa / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260422@school
+UID:lunch-gluten_free-ca-20260422@school
 DTSTART;TZID=Europe/Madrid:20260422T130000
 DTEND;TZID=Europe/Madrid:20260422T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 22 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nCigrons estofats amb patates\n🍽️ SEGON PLAT:\nGall dindi rostit amb verdures\n🥬 AMANIDA:\nAmanida\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nCigrons estofats amb patates\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Amanida\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -180,37 +180,24 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260423@school
-DTSTART;TZID=Europe/Madrid:20260423T130000
-DTEND;TZID=Europe/Madrid:20260423T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dij. 23 Abr - 🌹 SANT JORDI
-DESCRIPTION:🌹 SANT JORDI\n🥗 PRIMER PLAT:\nArròs amb salsa de tomàquet natural\n🍽️ SEGON PLAT:\nAletes de pollastre al forn\n🥬 AMANIDA:\nEnciam\, pastanaga i soja\n🍮 POSTRES:\nIogurt "La Fageda" amb topping
-BEGIN:VALARM
-TRIGGER;RELATED=END:PT0S
-ACTION:DISPLAY
-DESCRIPTION:Dinar: Arròs / Aletes de pollastre al forn — planifica el sopar per no repetir!
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:lunch-sg-ca-20260424@school
+UID:lunch-gluten_free-ca-20260424@school
 DTSTART;TZID=Europe/Madrid:20260424T130000
 DTEND;TZID=Europe/Madrid:20260424T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Div. 24 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nTrinxat amb col\, patata i daus de gall dindi\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, blat de moro i soja\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nTrinxat amb col\, patata i daus de gall dindi\n\n🍽️ Segon Plat:\nTruita tombada / Enciam\, blat de moro i soja
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Trinxat / Truita tombada — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Trinxat / Truita tombada / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260427@school
+UID:lunch-gluten_free-ca-20260427@school
 DTSTART;TZID=Europe/Madrid:20260427T130000
 DTEND;TZID=Europe/Madrid:20260427T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dll. 27 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nLlenties estofades amb verdures\n🍽️ SEGON PLAT:\nBotifarra de pagès rostida amb ceba\n🥬 AMANIDA:\nEnciam\, pastanaga ECO ratllada\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nBotifarra de pagès rostida amb ceba / Enciam\, pastanaga ECO ratllada\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -219,11 +206,11 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260428@school
+UID:lunch-gluten_free-ca-20260428@school
 DTSTART;TZID=Europe/Madrid:20260428T130000
 DTEND;TZID=Europe/Madrid:20260428T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 28 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nMongeta tendra amb pastanaga i coliflor\n🍽️ SEGON PLAT:\nPollastre a la llimona amb all i julivert al forn\n🥬 AMANIDA:\nEnciam\, poma i blat de moro\n🍮 POSTRES:\nIogurt "La Fageda"
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nMongeta tendra amb pastanaga i coliflor\n\n🍽️ Segon Plat:\nPollastre a la llimona amb all i julivert al forn / Enciam\, poma i blat de moro\n\n🍮 Postres:\nIogurt "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -232,15 +219,15 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-sg-ca-20260429@school
+UID:lunch-gluten_free-ca-20260429@school
 DTSTART;TZID=Europe/Madrid:20260429T130000
 DTEND;TZID=Europe/Madrid:20260429T140000
-SUMMARY:🍽️ Dinar Escolar (SG) - Dim. 29 Abr
-DESCRIPTION:🥗 PRIMER PLAT:\nArròs tres delícies (pastanaga\, pèsols\, gall dindi i blat de moro)\n🍽️ SEGON PLAT:\nTruita tombada\n🥬 AMANIDA:\nEnciam\, poma\, cogombre\n🍮 POSTRES:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nArròs tres delícies (pastanaga\, pèsols\, gall dindi i blat de moro)\n\n🍽️ Segon Plat:\nTruita tombada / Enciam\, poma\, cogombre\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Arròs tres delícies (pastanaga / Truita tombada — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Arròs tres delícies (pastanaga / Truita tombada / Enciam — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
