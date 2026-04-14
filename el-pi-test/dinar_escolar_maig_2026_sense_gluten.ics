@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dinar Escolar - Maig 2026 - Sense Gluten//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dinar Escolar - Maig 2026 - Sense Gluten
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260505@school
+DTSTART;TZID=Europe/Madrid:20260505T130000
+DTEND;TZID=Europe/Madrid:20260505T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nArròs amb tomàquet\n\n🍽️ Segon Plat:\nPollastre a la planxa / Enciam i olives\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs / Pollastre a la planxa / Enciam i ol — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260506@school
+DTSTART;TZID=Europe/Madrid:20260506T130000
+DTEND;TZID=Europe/Madrid:20260506T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades\n\n🍽️ Segon Plat:\nTruita tombada / Enciam i tomàquet\n\n🍮 Postres:\nIogurt
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Llenties estofades / Truita tombada / Enciam i tomàquet — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
