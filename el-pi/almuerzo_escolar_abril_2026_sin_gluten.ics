@@ -24,11 +24,11 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260407@school
+UID:lunch-sg-es-20260407@school
 DTSTART;TZID=Europe/Madrid:20260407T130000
 DTEND;TZID=Europe/Madrid:20260407T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nAlbóndigas con verduras / Lechuga\, maíz y soja\n\n🍮 Postre:\nYogur "La Fageda"
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mar 7 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras\n🍽️ SEGUNDO PLATO:\nAlbóndigas con verduras\n🥬 ENSALADA:\nLechuga\, maíz y soja\n🍮 POSTRE:\nYogur "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -37,102 +37,102 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260408@school
+UID:lunch-sg-es-20260408@school
 DTSTART;TZID=Europe/Madrid:20260408T130000
 DTEND;TZID=Europe/Madrid:20260408T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nTallarines integrales con verduras y salsa de soja\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, tomate y soja\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mié 8 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nTallarines integrales con verduras y salsa de soja\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, tomate y soja\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Tallarines integrales / Tortilla francesa / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Tallarines integrales / Tortilla francesa — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260409@school
+UID:lunch-sg-es-20260409@school
 DTSTART;TZID=Europe/Madrid:20260409T130000
 DTEND;TZID=Europe/Madrid:20260409T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nPaella de arroz con alcachofas y verduras\n\n🍽️ Segundo Plato:\nAlitas de pollo al horno / Lechuga\, zanahoria y aceitunas\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Jue 9 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nPaella de arroz con alcachofas y verduras\n🍽️ SEGUNDO PLATO:\nAlitas de pollo al horno\n🥬 ENSALADA:\nLechuga\, zanahoria y aceitunas\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Paella de arroz / Alitas de pollo al horno / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Paella de arroz / Alitas de pollo al horno — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260410@school
+UID:lunch-sg-es-20260410@school
 DTSTART;TZID=Europe/Madrid:20260410T130000
 DTEND;TZID=Europe/Madrid:20260410T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nMinestra de verdura del tiempo\n\n🍽️ Segundo Plato:\nPescado con salsa verde / Lechuga\, cebolla y aceitunas\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Vie 10 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nMenestra de verdura de temporada\n🍽️ SEGUNDO PLATO:\nPescado con salsa verde\n🥬 ENSALADA:\nLechuga\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Minestra de verdura del tiempo / Pescado — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Menestra de verdura de temporada / Pescado — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260413@school
+UID:lunch-sg-es-20260413@school
 DTSTART;TZID=Europe/Madrid:20260413T130000
 DTEND;TZID=Europe/Madrid:20260413T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nArroz con salsa de tomate natural\n\n🍽️ Segundo Plato:\nCalamares a la romana / Lechuga\, manzana y maíz\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Lun 13 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nArroz con salsa de tomate natural\n🍽️ SEGUNDO PLATO:\nCalamares a la romana\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Arroz / Calamares a la romana / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Arroz / Calamares a la romana — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260414@school
+UID:lunch-sg-es-20260414@school
 DTSTART;TZID=Europe/Madrid:20260414T130000
 DTEND;TZID=Europe/Madrid:20260414T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nFideos a la cazuela con verduras\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, naranja y pipas\n\n🍮 Postre:\nYogur "La Fageda"
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mar 14 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nFideos en cazuela con verduras\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, naranja y pipas\n🍮 POSTRE:\nYogur "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Fideos a la cazuela / Tortilla francesa / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Fideos en cazuela / Tortilla francesa — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260415@school
+UID:lunch-sg-es-20260415@school
 DTSTART;TZID=Europe/Madrid:20260415T130000
 DTEND;TZID=Europe/Madrid:20260415T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras y quinoa\n\n🍽️ Segundo Plato:\nPescado a la vizcaína / Lechuga\, tomate\, soja\, cebolla y aceitunas\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mié 15 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras y quinoa\n🍽️ SEGUNDO PLATO:\nPescado a la vizcaína\n🥬 ENSALADA:\nLechuga\, tomate\, soja\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Lentejas estofadas / Pescado a la vizcaína / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Lentejas estofadas / Pescado a la vizcaína — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260416@school
+UID:lunch-sg-es-20260416@school
 DTSTART;TZID=Europe/Madrid:20260416T130000
 DTEND;TZID=Europe/Madrid:20260416T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten - ⭐ Día Favorito ⭐
-DESCRIPTION:⭐ Día Favorito\n🥗 Primer Plato:\nSopa de "letras"\n\n🍽️ Segundo Plato:\nPollo rebozado con patatas / Dulce sin gluten
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Jue 16 Abr - ⭐ DÍA FAVORITO
+DESCRIPTION:⭐ DÍA FAVORITO\n🥗 PRIMER PLATO:\nSopa de letras\n🍽️ SEGUNDO PLATO:\nPollo rebozado con patatas\n🍮 POSTRE:\nDulce sin gluten
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Sopa de "letras" / Pollo rebozado — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Sopa de letras / Pollo rebozado — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260417@school
+UID:lunch-sg-es-20260417@school
 DTSTART;TZID=Europe/Madrid:20260417T130000
 DTEND;TZID=Europe/Madrid:20260417T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nCrema de verduras de temporada\n\n🍽️ Segundo Plato:\nPavo asado con verduras / Lechuga\, zanahoria y soja\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Vie 17 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nCrema de verduras de temporada\n🍽️ SEGUNDO PLATO:\nPavo asado con verduras\n🥬 ENSALADA:\nLechuga\, zanahoria y soja\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -141,37 +141,37 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260420@school
+UID:lunch-sg-es-20260420@school
 DTSTART;TZID=Europe/Madrid:20260420T130000
 DTEND;TZID=Europe/Madrid:20260420T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nBrócoli\, zanahoria\, patata y judía verde con aceite de oliva\n\n🍽️ Segundo Plato:\nCarne magra de cerdo a la plancha / Lechuga\, zanahoria rallada con aceitunas\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Lun 20 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nBrócoli\, zanahoria\, patata y judía verde con aceite de oliva\n🍽️ SEGUNDO PLATO:\nCarne magra de cerdo a la plancha\n🥬 ENSALADA:\nLechuga\, zanahoria rallada y aceitunas\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Brócoli / Carne magra de cerdo a la plancha / — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Brócoli / Carne magra de cerdo a la plancha — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260421@school
+UID:lunch-sg-es-20260421@school
 DTSTART;TZID=Europe/Madrid:20260421T130000
 DTEND;TZID=Europe/Madrid:20260421T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nMacarrones a la napolitana\n\n🍽️ Segundo Plato:\nPescado a la plancha / Lechuga\, tomate\, soja\, cebolla y aceitunas\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mar 21 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nMacarrones a la napolitana\n🍽️ SEGUNDO PLATO:\nPescado a la plancha\n🥬 ENSALADA:\nLechuga\, tomate\, soja\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Macarrones a la napolitana / Pescado a la plancha / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Macarrones a la napolitana / Pescado a la plancha — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260422@school
+UID:lunch-sg-es-20260422@school
 DTSTART;TZID=Europe/Madrid:20260422T130000
 DTEND;TZID=Europe/Madrid:20260422T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nGarbanzos estofados con patatas\n\n🍽️ Segundo Plato:\nPavo asado con verduras / Ensalada\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mié 22 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nGarbanzos estofados con patatas\n🍽️ SEGUNDO PLATO:\nPavo asado con verduras\n🥬 ENSALADA:\nEnsalada\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -180,37 +180,50 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260424@school
+UID:lunch-sg-es-20260423@school
+DTSTART;TZID=Europe/Madrid:20260423T130000
+DTEND;TZID=Europe/Madrid:20260423T140000
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Jue 23 Abr - 🌹 SANT JORDI
+DESCRIPTION:🌹 SANT JORDI\n🥗 PRIMER PLATO:\nArroz con salsa de tomate natural\n🍽️ SEGUNDO PLATO:\nAlitas de pollo al horno\n🥬 ENSALADA:\nLechuga\, zanahoria y soja\n🍮 POSTRE:\nYogur "La Fageda" con topping
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Alitas de pollo al horno — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-sg-es-20260424@school
 DTSTART;TZID=Europe/Madrid:20260424T130000
 DTEND;TZID=Europe/Madrid:20260424T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nTrinxat con col\, patata y dados de pavo\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, maíz y soja
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Vie 24 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nTrinxat con col\, patata y dados de pavo\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, maíz y soja\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Trinxat / Tortilla francesa / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Trinxat / Tortilla francesa — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260427@school
+UID:lunch-sg-es-20260427@school
 DTSTART;TZID=Europe/Madrid:20260427T130000
 DTEND;TZID=Europe/Madrid:20260427T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nButifarra de pagés asada con cebolla / Lechuga\, zanahoria ECO rallada\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Lun 27 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras\n🍽️ SEGUNDO PLATO:\nButifarra de pagès asada con cebolla\n🥬 ENSALADA:\nLechuga\, zanahoria ECO rallada\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Lentejas estofadas / Butifarra de pagés asada — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Lentejas estofadas / Butifarra de pagès asada — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260428@school
+UID:lunch-sg-es-20260428@school
 DTSTART;TZID=Europe/Madrid:20260428T130000
 DTEND;TZID=Europe/Madrid:20260428T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nJudía tierna con zanahoria y coliflor\n\n🍽️ Segundo Plato:\nPollo al limón con ajo y perejil al horno / Lechuga\, manzana y maíz\n\n🍮 Postre:\nYogur "La Fageda"
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mar 28 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nJudía tierna con zanahoria y coliflor\n🍽️ SEGUNDO PLATO:\nPollo al limón con ajo y perejil al horno\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nYogur "La Fageda"
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -219,16 +232,16 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-es-20260429@school
+UID:lunch-sg-es-20260429@school
 DTSTART;TZID=Europe/Madrid:20260429T130000
 DTEND;TZID=Europe/Madrid:20260429T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Gluten
-DESCRIPTION:🥗 Primer Plato:\nArroz tres delicias (zanahoria\, guisantes\, pavo y maíz)\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, manzana\, pepino\n\n🍮 Postre:\nFruta del tiempo
+SUMMARY:🍽️ Almuerzo Escolar (SG) - Mié 29 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nArroz tres delicias (zanahoria\, guisantes\, pavo y maíz)\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, manzana\, pepino\n🍮 POSTRE:\nFruta de temporada
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Arroz tres delicias (zanahoria / Tortilla francesa / Lechuga — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Arroz tres delicias (zanahoria / Tortilla francesa — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
-END:VCALENDAR
+END:VCALENDAR

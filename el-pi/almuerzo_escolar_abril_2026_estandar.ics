@@ -24,11 +24,11 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260407@school
+UID:lunch-std-es-20260407@school
 DTSTART;TZID=Europe/Madrid:20260407T130000
 DTEND;TZID=Europe/Madrid:20260407T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nAlbóndigas con verduras / Lechuga\, maíz y soja\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nSopa y pescado azul
+SUMMARY:🍽️ Almuerzo Escolar - Mar 7 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras\n🍽️ SEGUNDO PLATO:\nAlbóndigas con verduras\n🥬 ENSALADA:\nLechuga\, maíz y soja\n🍮 POSTRE:\nYogur "La Fageda"\n🌙 CENA SUGERIDA:\nSopa y pescado azul
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -37,141 +37,141 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260408@school
+UID:lunch-std-es-20260408@school
 DTSTART;TZID=Europe/Madrid:20260408T130000
 DTEND;TZID=Europe/Madrid:20260408T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nTallarines integrales con verduras y salsa de soja\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, tomate y soja\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nArroz y verdura
+SUMMARY:🍽️ Almuerzo Escolar - Mié 8 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nTallarines integrales con verduras y salsa de soja\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, tomate y soja\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nArroz y verdura
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Tallarines integrales / Tortilla francesa / Lechuga — Cena: Arroz y verdura
+DESCRIPTION:Almuerzo: Tallarines integrales / Tortilla francesa — Cena: Arroz y verdura
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260409@school
+UID:lunch-std-es-20260409@school
 DTSTART;TZID=Europe/Madrid:20260409T130000
 DTEND;TZID=Europe/Madrid:20260409T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nPaella de arroz con alcachofas y verduras\n\n🍽️ Segundo Plato:\nAlitas de pollo al horno / Lechuga\, zanahoria y aceitunas\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nVerduras y pescado blanco
+SUMMARY:🍽️ Almuerzo Escolar - Jue 9 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nPaella de arroz con alcachofas y verduras\n🍽️ SEGUNDO PLATO:\nAlitas de pollo al horno\n🥬 ENSALADA:\nLechuga\, zanahoria y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nVerduras y pescado blanco
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Paella de arroz / Alitas de pollo al horno / Lechuga — Cena: Verduras y pescado blanco
+DESCRIPTION:Almuerzo: Paella de arroz / Alitas de pollo al horno — Cena: Verduras y pescado blanco
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260410@school
+UID:lunch-std-es-20260410@school
 DTSTART;TZID=Europe/Madrid:20260410T130000
 DTEND;TZID=Europe/Madrid:20260410T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nMinestra de verduras de temporada\n\n🍽️ Segundo Plato:\nPescado con salsa verde / Lechuga\, cebolla y aceitunas\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y carne blanca
+SUMMARY:🍽️ Almuerzo Escolar - Vie 10 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nMenestra de verduras de temporada\n🍽️ SEGUNDO PLATO:\nPescado con salsa verde\n🥬 ENSALADA:\nLechuga\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y carne blanca
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Minestra de verduras de temporada / Pescado — Cena: Ensalada y carne blanca
+DESCRIPTION:Almuerzo: Menestra de verduras de temporada / Pescado — Cena: Ensalada y carne blanca
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260413@school
+UID:lunch-std-es-20260413@school
 DTSTART;TZID=Europe/Madrid:20260413T130000
 DTEND;TZID=Europe/Madrid:20260413T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nArroz con salsa de tomate natural\n\n🍽️ Segundo Plato:\nCalamares a la romana / Lechuga\, manzana y maíz\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado
+SUMMARY:🍽️ Almuerzo Escolar - Lun 13 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nArroz con salsa de tomate natural\n🍽️ SEGUNDO PLATO:\nCalamares a la romana\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y pescado
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Arroz / Calamares a la romana / Lechuga — Cena: Ensalada y pescado
+DESCRIPTION:Almuerzo: Arroz / Calamares a la romana — Cena: Ensalada y pescado
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260414@school
+UID:lunch-std-es-20260414@school
 DTSTART;TZID=Europe/Madrid:20260414T130000
 DTEND;TZID=Europe/Madrid:20260414T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nFideos a la cazuela con verduras\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, naranja y pipas\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nEnsalada y carne blanca
+SUMMARY:🍽️ Almuerzo Escolar - Mar 14 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nFideos en cazuela con verduras\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, naranja y pipas\n🍮 POSTRE:\nYogur "La Fageda"\n🌙 CENA SUGERIDA:\nEnsalada y carne blanca
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Fideos a la cazuela / Tortilla francesa / Lechuga — Cena: Ensalada y carne blanca
+DESCRIPTION:Almuerzo: Fideos en cazuela / Tortilla francesa — Cena: Ensalada y carne blanca
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260415@school
+UID:lunch-std-es-20260415@school
 DTSTART;TZID=Europe/Madrid:20260415T130000
 DTEND;TZID=Europe/Madrid:20260415T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras y quinoa\n\n🍽️ Segundo Plato:\nPescado a la vizcaína / Lechuga\, tomate\, soja\, cebolla y aceitunas\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y carne roja
+SUMMARY:🍽️ Almuerzo Escolar - Mié 15 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras y quinoa\n🍽️ SEGUNDO PLATO:\nPescado a la vizcaína\n🥬 ENSALADA:\nLechuga\, tomate\, soja\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nSopa y carne roja
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Lentejas estofadas / Pescado a la vizcaína / Lechuga — Cena: Sopa y carne roja
+DESCRIPTION:Almuerzo: Lentejas estofadas / Pescado a la vizcaína — Cena: Sopa y carne roja
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260416@school
+UID:lunch-std-es-20260416@school
 DTSTART;TZID=Europe/Madrid:20260416T130000
 DTEND;TZID=Europe/Madrid:20260416T140000
-SUMMARY:🍽️ Almuerzo El Pi - ⭐ Día Favorito ⭐
-DESCRIPTION:⭐ Día Favorito\n🥗 Primer Plato:\nSopa de "Maravilla"\n\n🍽️ Segundo Plato:\nPollo rebozado con patatas / Pastel casero\n\n🌙 Cena Sugerida:\nCrema de verduras y pescado blanco
+SUMMARY:🍽️ Almuerzo Escolar - Jue 16 Abr - ⭐ DÍA FAVORITO
+DESCRIPTION:⭐ DÍA FAVORITO\n🥗 PRIMER PLATO:\nSopa "Maravella"\n🍽️ SEGUNDO PLATO:\nPollo rebozado con patatas\n🍮 POSTRE:\nPastel casero\n🌙 CENA SUGERIDA:\nCrema de verduras y pescado blanco
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Sopa de "Maravilla" / Pollo rebozado — Cena: Crema de verduras y pescado blanco
+DESCRIPTION:Almuerzo: Sopa "Maravella" / Pollo rebozado — Cena: Crema de verduras y pescado blanco
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260417@school
+UID:lunch-std-es-20260417@school
 DTSTART;TZID=Europe/Madrid:20260417T130000
 DTEND;TZID=Europe/Madrid:20260417T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nCrema de verduras de temporada\n\n🍽️ Segundo Plato:\nCanelones gratinados / Lechuga\, zanahoria y soja\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y huevo
+SUMMARY:🍽️ Almuerzo Escolar - Vie 17 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nCrema de verduras de temporada\n🍽️ SEGUNDO PLATO:\nCanelones gratinados\n🥬 ENSALADA:\nLechuga\, zanahoria y soja\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y huevo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Crema de verduras de temporada / Canelones gratinados / Lechuga — Cena: Ensalada y huevo
+DESCRIPTION:Almuerzo: Crema de verduras de temporada / Canelones gratinados — Cena: Ensalada y huevo
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260420@school
+UID:lunch-std-es-20260420@school
 DTSTART;TZID=Europe/Madrid:20260420T130000
 DTEND;TZID=Europe/Madrid:20260420T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nBrócoli\, zanahoria\, patata y judía verde con aceite de oliva\n\n🍽️ Segundo Plato:\nCarne magra de cerdo a la plancha / Lechuga\, manzana y maíz\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y carne roja
+SUMMARY:🍽️ Almuerzo Escolar - Lun 20 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nBrócoli\, zanahoria\, patata y judía verde con aceite de oliva\n🍽️ SEGUNDO PLATO:\nCarne magra de cerdo a la plancha\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nSopa y carne roja
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Brócoli / Carne magra de cerdo a la plancha / — Cena: Sopa y carne roja
+DESCRIPTION:Almuerzo: Brócoli / Carne magra de cerdo a la plancha — Cena: Sopa y carne roja
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260421@school
+UID:lunch-std-es-20260421@school
 DTSTART;TZID=Europe/Madrid:20260421T130000
 DTEND;TZID=Europe/Madrid:20260421T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nMacarrones a la napolitana con queso\n\n🍽️ Segundo Plato:\nCroquetas de bacalao / Lechuga\, tomate\, soja\, cebolla y aceitunas\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y huevo
+SUMMARY:🍽️ Almuerzo Escolar - Mar 21 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nMacarrones a la napolitana con queso\n🍽️ SEGUNDO PLATO:\nCroquetas de bacalao\n🥬 ENSALADA:\nLechuga\, tomate\, soja\, cebolla y aceitunas\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y huevo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Macarrones a la napolitana / Croquetas de bacalao / Lechuga — Cena: Ensalada y huevo
+DESCRIPTION:Almuerzo: Macarrones a la napolitana / Croquetas de bacalao — Cena: Ensalada y huevo
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260422@school
+UID:lunch-std-es-20260422@school
 DTSTART;TZID=Europe/Madrid:20260422T130000
 DTEND;TZID=Europe/Madrid:20260422T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nGarbanzos estofados con patatas\n\n🍽️ Segundo Plato:\nPavo asado con verduras acompañado de cuscús\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado azul
+SUMMARY:🍽️ Almuerzo Escolar - Mié 22 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nGarbanzos estofados con patatas\n🍽️ SEGUNDO PLATO:\nPavo asado con verduras acompañado de cuscús\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y pescado azul
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -180,37 +180,50 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260424@school
+UID:lunch-std-es-20260423@school
+DTSTART;TZID=Europe/Madrid:20260423T130000
+DTEND;TZID=Europe/Madrid:20260423T140000
+SUMMARY:🍽️ Almuerzo Escolar - Jue 23 Abr - 🌹 SANT JORDI
+DESCRIPTION:🌹 SANT JORDI\n🥗 PRIMER PLATO:\nArroz con salsa de tomate natural\n🍽️ SEGUNDO PLATO:\nAlitas de pollo al horno\n🥬 ENSALADA:\nLechuga\, zanahoria y soja\n🍮 POSTRE:\nYogur "La Fageda" con topping
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Alitas de pollo al horno — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-es-20260424@school
 DTSTART;TZID=Europe/Madrid:20260424T130000
 DTEND;TZID=Europe/Madrid:20260424T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nTrinxat con col\, patata y dados de pavo\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, maíz y soja\n\n🌙 Cena Sugerida:\nEnsalada y carne blanca
+SUMMARY:🍽️ Almuerzo Escolar - Vie 24 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nTrinxat con col\, patata y dados de pavo\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nLechuga\, maíz y soja\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y carne blanca
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Trinxat / Tortilla francesa / Lechuga — Cena: Ensalada y carne blanca
+DESCRIPTION:Almuerzo: Trinxat / Tortilla francesa — Cena: Ensalada y carne blanca
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260427@school
+UID:lunch-std-es-20260427@school
 DTSTART;TZID=Europe/Madrid:20260427T130000
 DTEND;TZID=Europe/Madrid:20260427T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nButifarra de pagés asada con cebolla / Lechuga\, zanahoria rallada\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado blanco
+SUMMARY:🍽️ Almuerzo Escolar - Lun 27 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nLentejas estofadas con verduras\n🍽️ SEGUNDO PLATO:\nButifarra de pagès asada con cebolla\n🥬 ENSALADA:\nLechuga\, zanahoria rallada\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nEnsalada y pescado blanco
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Lentejas estofadas / Butifarra de pagés asada — Cena: Ensalada y pescado blanco
+DESCRIPTION:Almuerzo: Lentejas estofadas / Butifarra de pagès asada — Cena: Ensalada y pescado blanco
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260428@school
+UID:lunch-std-es-20260428@school
 DTSTART;TZID=Europe/Madrid:20260428T130000
 DTEND;TZID=Europe/Madrid:20260428T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nJudía tierna con zanahoria y coliflor\n\n🍽️ Segundo Plato:\nPollo al limón con ajo y perejil al horno / Lechuga\, manzana y maíz\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nVerdura y huevo
+SUMMARY:🍽️ Almuerzo Escolar - Mar 28 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nJudía tierna con zanahoria y coliflor\n🍽️ SEGUNDO PLATO:\nPollo al limón con ajo y perejil al horno\n🥬 ENSALADA:\nLechuga\, manzana y maíz\n🍮 POSTRE:\nYogur "La Fageda"\n🌙 CENA SUGERIDA:\nVerdura y huevo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -219,16 +232,16 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-es-20260429@school
+UID:lunch-std-es-20260429@school
 DTSTART;TZID=Europe/Madrid:20260429T130000
 DTEND;TZID=Europe/Madrid:20260429T140000
-SUMMARY:🍽️ Almuerzo El Pi
-DESCRIPTION:🥗 Primer Plato:\nArroz tres delicias (zanahoria\, guisantes\, pavo y maíz)\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, manzana\, pepino\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y carne roja
+SUMMARY:🍽️ Almuerzo Escolar - Mié 29 Abr
+DESCRIPTION:🥗 PRIMER PLATO:\nArroz tres delicias (zanahoria\, guisantes\, pavo y maíz)\n🍽️ SEGUNDO PLATO:\nTortilla francesa\n🥬 ENSALADA:\nEnsalada ECO / Lechuga\, manzana\, pepino\n🍮 POSTRE:\nFruta de temporada\n🌙 CENA SUGERIDA:\nSopa y carne roja
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Arroz tres delicias (zanahoria / Tortilla francesa / Lechuga — Cena: Sopa y carne roja
+DESCRIPTION:Almuerzo: Arroz tres delicias (zanahoria / Tortilla francesa — Cena: Sopa y carne roja
 END:VALARM
 END:VEVENT
 
-END:VCALENDAR
+END:VCALENDAR

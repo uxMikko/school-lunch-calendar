@@ -24,193 +24,206 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260407@school
+UID:lunch-std-en-20260407@school
 DTSTART;TZID=Europe/Madrid:20260407T130000
 DTEND;TZID=Europe/Madrid:20260407T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nBraised lentils with vegetables\n\n🍽️ Main Course:\nMeatballs with vegetables / Lettuce\, corn and soy\n\n🍮 Dessert:\nYogurt "La Fageda"\n\n🌙 Suggested Dinner:\nSoup and blue fish
+SUMMARY:🍽️ School Lunch - Tue 7 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nStewed lentils with vegetables\n🍽️ MAIN COURSE:\nMeatballs with vegetables\n🥬 SALAD:\nLettuce\, sweetcorn and soy\n🍮 DESSERT:\n"La Fageda" yogurt\n🌙 SUGGESTED DINNER:\nSoup and oily fish
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Braised lentils / Meatballs — Tonight: Soup and blue fish
+DESCRIPTION:Lunch: Stewed lentils / Meatballs — Tonight: Soup and oily fish
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260408@school
+UID:lunch-std-en-20260408@school
 DTSTART;TZID=Europe/Madrid:20260408T130000
 DTEND;TZID=Europe/Madrid:20260408T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nWhole wheat pasta with vegetables and soy sauce\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, tomato and soy\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nRice and vegetables
+SUMMARY:🍽️ School Lunch - Wed 8 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nWholegrain noodles with vegetables and soy sauce\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, tomato and soy\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nRice and vegetables
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Whole wheat pasta / Plain omelet / Lettuce — Tonight: Rice and vegetables
+DESCRIPTION:Lunch: Wholegrain noodles / French omelette — Tonight: Rice and vegetables
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260409@school
+UID:lunch-std-en-20260409@school
 DTSTART;TZID=Europe/Madrid:20260409T130000
 DTEND;TZID=Europe/Madrid:20260409T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nRice paella with artichokes and vegetables\n\n🍽️ Main Course:\nBaked chicken wings / Lettuce\, carrot and olives\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nVegetables and white fish
+SUMMARY:🍽️ School Lunch - Thu 9 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nRice paella with artichokes and vegetables\n🍽️ MAIN COURSE:\nBaked chicken wings\n🥬 SALAD:\nLettuce\, carrot and olives\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nVegetables and white fish
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Rice paella / Baked chicken wings / Lettuce — Tonight: Vegetables and white fish
+DESCRIPTION:Lunch: Rice paella / Baked chicken wings — Tonight: Vegetables and white fish
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260410@school
+UID:lunch-std-en-20260410@school
 DTSTART;TZID=Europe/Madrid:20260410T130000
 DTEND;TZID=Europe/Madrid:20260410T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nSeasonal vegetable soup\n\n🍽️ Main Course:\nFish with green sauce / Lettuce\, onion and olives\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSalad and white meat
+SUMMARY:🍽️ School Lunch - Fri 10 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nSeasonal vegetable minestrone\n🍽️ MAIN COURSE:\nFish with green sauce\n🥬 SALAD:\nLettuce\, onion and olives\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and white meat
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Seasonal vegetable soup / Fish — Tonight: Salad and white meat
+DESCRIPTION:Lunch: Seasonal vegetable minestrone / Fish — Tonight: Salad and white meat
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260413@school
+UID:lunch-std-en-20260413@school
 DTSTART;TZID=Europe/Madrid:20260413T130000
 DTEND;TZID=Europe/Madrid:20260413T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nRice with natural tomato sauce\n\n🍽️ Main Course:\nBreaded squid / Lettuce\, apple and corn\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSalad and fish
+SUMMARY:🍽️ School Lunch - Mon 13 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nRice with fresh tomato sauce\n🍽️ MAIN COURSE:\nBattered squid rings\n🥬 SALAD:\nLettuce\, apple and sweetcorn\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and fish
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Rice / Breaded squid / Lettuce — Tonight: Salad and fish
+DESCRIPTION:Lunch: Rice / Battered squid rings — Tonight: Salad and fish
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260414@school
+UID:lunch-std-en-20260414@school
 DTSTART;TZID=Europe/Madrid:20260414T130000
 DTEND;TZID=Europe/Madrid:20260414T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nCasserole noodles with vegetables\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, orange and sunflower seeds\n\n🍮 Dessert:\nYogurt "La Fageda"\n\n🌙 Suggested Dinner:\nSalad and white meat
+SUMMARY:🍽️ School Lunch - Tue 14 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nCasserole noodles with vegetables\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, orange and sunflower seeds\n🍮 DESSERT:\n"La Fageda" yogurt\n🌙 SUGGESTED DINNER:\nSalad and white meat
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Casserole noodles / Plain omelet / Lettuce — Tonight: Salad and white meat
+DESCRIPTION:Lunch: Casserole noodles / French omelette — Tonight: Salad and white meat
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260415@school
+UID:lunch-std-en-20260415@school
 DTSTART;TZID=Europe/Madrid:20260415T130000
 DTEND;TZID=Europe/Madrid:20260415T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nBraised lentils with vegetables and quinoa\n\n🍽️ Main Course:\nFish Biscayan style / Lettuce\, tomato\, soy\, onion and olives\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSoup and red meat
+SUMMARY:🍽️ School Lunch - Wed 15 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nStewed lentils with vegetables and quinoa\n🍽️ MAIN COURSE:\nFish Biscay style\n🥬 SALAD:\nLettuce\, tomato\, soy\, onion and olives\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSoup and red meat
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Braised lentils / Fish Biscayan style / Lettuce — Tonight: Soup and red meat
+DESCRIPTION:Lunch: Stewed lentils / Fish Biscay style — Tonight: Soup and red meat
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260416@school
+UID:lunch-std-en-20260416@school
 DTSTART;TZID=Europe/Madrid:20260416T130000
 DTEND;TZID=Europe/Madrid:20260416T140000
-SUMMARY:🍽️ El Pi lunch - ⭐ Favourite Day ⭐
-DESCRIPTION:⭐ Favourite Day\n🥗 First Course:\n"Wonder" soup\n\n🍽️ Main Course:\nBreaded chicken with potatoes / Homemade cake\n\n🌙 Suggested Dinner:\nVegetable cream and white fish
+SUMMARY:🍽️ School Lunch - Thu 16 Apr - ⭐ FAVOURITE DAY
+DESCRIPTION:⭐ FAVOURITE DAY\n🥗 FIRST COURSE:\n"Maravella" soup\n🍽️ MAIN COURSE:\nBreaded chicken with potatoes\n🍮 DESSERT:\nHomemade cake\n🌙 SUGGESTED DINNER:\nVegetable cream soup and white fish
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: "Wonder" soup / Breaded chicken — Tonight: Vegetable cream and white fish
+DESCRIPTION:Lunch: "Maravella" soup / Breaded chicken — Tonight: Vegetable cream soup and white fish
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260417@school
+UID:lunch-std-en-20260417@school
 DTSTART;TZID=Europe/Madrid:20260417T130000
 DTEND;TZID=Europe/Madrid:20260417T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nSeasonal vegetable cream\n\n🍽️ Main Course:\nGratinated cannelloni / Lettuce\, carrot and soy\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSalad and egg
+SUMMARY:🍽️ School Lunch - Fri 17 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nSeasonal vegetable cream soup\n🍽️ MAIN COURSE:\nGratinated cannelloni\n🥬 SALAD:\nLettuce\, carrot and soy\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and egg
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Seasonal vegetable cream / Gratinated cannelloni / Lettuce — Tonight: Salad and egg
+DESCRIPTION:Lunch: Seasonal vegetable cream soup / Gratinated cannelloni — Tonight: Salad and egg
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260420@school
+UID:lunch-std-en-20260420@school
 DTSTART;TZID=Europe/Madrid:20260420T130000
 DTEND;TZID=Europe/Madrid:20260420T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nBroccoli\, carrot\, potato and green beans with olive oil\n\n🍽️ Main Course:\nLean pork grilled / Lettuce\, apple and corn\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSoup and red meat
+SUMMARY:🍽️ School Lunch - Mon 20 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nBroccoli\, carrot\, potato and green beans with olive oil\n🍽️ MAIN COURSE:\nGrilled lean pork\n🥬 SALAD:\nLettuce\, apple and sweetcorn\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSoup and red meat
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Broccoli / Lean pork grilled / Lettuce — Tonight: Soup and red meat
+DESCRIPTION:Lunch: Broccoli / Grilled lean pork — Tonight: Soup and red meat
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260421@school
+UID:lunch-std-en-20260421@school
 DTSTART;TZID=Europe/Madrid:20260421T130000
 DTEND;TZID=Europe/Madrid:20260421T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nMacaroni Neapolitan with cheese\n\n🍽️ Main Course:\nCod croquettes / Lettuce\, tomato\, soy\, onion and olives\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSalad and egg
+SUMMARY:🍽️ School Lunch - Tue 21 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nMacaroni napoletana with cheese\n🍽️ MAIN COURSE:\nCod croquettes\n🥬 SALAD:\nLettuce\, tomato\, soy\, onion and olives\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and egg
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Macaroni Neapolitan / Cod croquettes / Lettuce — Tonight: Salad and egg
+DESCRIPTION:Lunch: Macaroni napoletana / Cod croquettes — Tonight: Salad and egg
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260422@school
+UID:lunch-std-en-20260422@school
 DTSTART;TZID=Europe/Madrid:20260422T130000
 DTEND;TZID=Europe/Madrid:20260422T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nBraised chickpeas with potatoes\n\n🍽️ Main Course:\nRoasted turkey with vegetables served with couscous\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSalad and blue fish
+SUMMARY:🍽️ School Lunch - Wed 22 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nStewed chickpeas with potatoes\n🍽️ MAIN COURSE:\nRoast turkey with vegetables and couscous\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and oily fish
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Braised chickpeas / Roasted turkey — Tonight: Salad and blue fish
+DESCRIPTION:Lunch: Stewed chickpeas / Roast turkey — Tonight: Salad and oily fish
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260424@school
+UID:lunch-std-en-20260423@school
+DTSTART;TZID=Europe/Madrid:20260423T130000
+DTEND;TZID=Europe/Madrid:20260423T140000
+SUMMARY:🍽️ School Lunch - Thu 23 Apr - 🌹 SANT JORDI
+DESCRIPTION:🌹 SANT JORDI\n🥗 FIRST COURSE:\nRice with fresh tomato sauce\n🍽️ MAIN COURSE:\nBaked chicken wings\n🥬 SALAD:\nLettuce\, carrot and soy\n🍮 DESSERT:\n"La Fageda" yogurt with toppings
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Rice / Baked chicken wings — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-std-en-20260424@school
 DTSTART;TZID=Europe/Madrid:20260424T130000
 DTEND;TZID=Europe/Madrid:20260424T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nTrinxat with cabbage\, potato and turkey cubes\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, corn and soy\n\n🌙 Suggested Dinner:\nSalad and white meat
+SUMMARY:🍽️ School Lunch - Fri 24 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nTrinxat with cabbage\, potato and diced turkey\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nLettuce\, sweetcorn and soy\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and white meat
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Trinxat / Plain omelet / Lettuce — Tonight: Salad and white meat
+DESCRIPTION:Lunch: Trinxat / French omelette — Tonight: Salad and white meat
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260427@school
+UID:lunch-std-en-20260427@school
 DTSTART;TZID=Europe/Madrid:20260427T130000
 DTEND;TZID=Europe/Madrid:20260427T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nBraised lentils with vegetables\n\n🍽️ Main Course:\nCountry sausage roasted with onion / Lettuce\, grated carrot\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSalad and white fish
+SUMMARY:🍽️ School Lunch - Mon 27 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nStewed lentils with vegetables\n🍽️ MAIN COURSE:\nRoasted country sausage with onion\n🥬 SALAD:\nLettuce\, grated carrot\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSalad and white fish
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Braised lentils / Country sausage roasted — Tonight: Salad and white fish
+DESCRIPTION:Lunch: Stewed lentils / Roasted country sausage — Tonight: Salad and white fish
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260428@school
+UID:lunch-std-en-20260428@school
 DTSTART;TZID=Europe/Madrid:20260428T130000
 DTEND;TZID=Europe/Madrid:20260428T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nGreen beans with carrot and cauliflower\n\n🍽️ Main Course:\nLemon chicken with garlic and parsley baked / Lettuce\, apple and corn\n\n🍮 Dessert:\nYogurt "La Fageda"\n\n🌙 Suggested Dinner:\nVegetables and egg
+SUMMARY:🍽️ School Lunch - Tue 28 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nGreen beans with carrot and cauliflower\n🍽️ MAIN COURSE:\nLemon chicken with garlic and parsley\, baked\n🥬 SALAD:\nLettuce\, apple and sweetcorn\n🍮 DESSERT:\n"La Fageda" yogurt\n🌙 SUGGESTED DINNER:\nVegetables and egg
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -219,16 +232,16 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-standard-en-20260429@school
+UID:lunch-std-en-20260429@school
 DTSTART;TZID=Europe/Madrid:20260429T130000
 DTEND;TZID=Europe/Madrid:20260429T140000
-SUMMARY:🍽️ El Pi lunch
-DESCRIPTION:🥗 First Course:\nThree delights rice (carrot\, peas\, turkey and corn)\n\n🍽️ Main Course:\nPlain omelet / Lettuce\, apple\, cucumber\n\n🍮 Dessert:\nSeasonal fruit\n\n🌙 Suggested Dinner:\nSoup and red meat
+SUMMARY:🍽️ School Lunch - Wed 29 Apr
+DESCRIPTION:🥗 FIRST COURSE:\nThree-delicacies rice (carrot\, peas\, turkey and sweetcorn)\n🍽️ MAIN COURSE:\nFrench omelette\n🥬 SALAD:\nOrganic salad / Lettuce\, apple\, cucumber\n🍮 DESSERT:\nSeasonal fruit\n🌙 SUGGESTED DINNER:\nSoup and red meat
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Three delights rice (carrot / Plain omelet / Lettuce — Tonight: Soup and red meat
+DESCRIPTION:Lunch: Three-delicacies rice (carrot / French omelette — Tonight: Soup and red meat
 END:VALARM
 END:VEVENT
 
-END:VCALENDAR
+END:VCALENDAR
