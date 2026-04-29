@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dinar Escolar - Maig 2026 - Sense Gluten//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dinar Escolar - Maig 2026 - Sense Gluten
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260504@school
+DTSTART;TZID=Europe/Madrid:20260504T130000
+DTEND;TZID=Europe/Madrid:20260504T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nColiflor\, pastanaga\, patata i bròquil\n\n🍽️ Segon Plat:\nCalamars / Enciam\, pastanaga i soja\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Coliflor / Calamars / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260505@school
+DTSTART;TZID=Europe/Madrid:20260505T130000
+DTEND;TZID=Europe/Madrid:20260505T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nTallarines integrals amb verdures i salsa de soja\n\n🍽️ Segon Plat:\nPeix al forn amb verdures / Enciam\, tomàquet i olives\n\n🍮 Postres:\nIogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Tallarines integrals / Peix al forn — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260506@school
+DTSTART;TZID=Europe/Madrid:20260506T130000
+DTEND;TZID=Europe/Madrid:20260506T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb quinoa i verdures\n\n🍽️ Segon Plat:\nMandonguilles amb salsa de verdures / Enciam\, olives i ceba\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Llenties estofades / Mandonguilles — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260507@school
+DTSTART;TZID=Europe/Madrid:20260507T130000
+DTEND;TZID=Europe/Madrid:20260507T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nCrema de verdures\n\n🍽️ Segon Plat:\nPollastre rostit / Enciam\, blat de moro i pastanaga\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Crema de verdures / Pollastre rostit / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260511@school
+DTSTART;TZID=Europe/Madrid:20260511T130000
+DTEND;TZID=Europe/Madrid:20260511T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nFideus a la cassola amb verdures\n\n🍽️ Segon Plat:\nBotifarra de pagès a la planxa / Enciam\, olives i ceba\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Fideus a la cassola / Botifarra de pagès a la planxa / En — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260512@school
+DTSTART;TZID=Europe/Madrid:20260512T130000
+DTEND;TZID=Europe/Madrid:20260512T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nArròs tres delícies (pèsols\, daus de gall dindi\, ou i pastanaga)\n\n🍽️ Segon Plat:\nPeix rostit amb verdures / Tomàquet\, ceba i soja\n\n🍮 Postres:\nIogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs tres delícies (pèsols / Peix rostit — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260513@school
+DTSTART;TZID=Europe/Madrid:20260513T130000
+DTEND;TZID=Europe/Madrid:20260513T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nMongeta tendra amb patates i pastanaga\n\n🍽️ Segon Plat:\nGall dindi de rostit amb verdures / Enciam\, olives i ceba\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Mongeta tendra / Gall dindi de rostit — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260514@school
+DTSTART;TZID=Europe/Madrid:20260514T130000
+DTEND;TZID=Europe/Madrid:20260514T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten - ⭐ Dia Preferit ⭐
+DESCRIPTION:⭐ Dia Preferit\n🥗 Primer Plat:\nSopa amb fideus\n\n🍽️ Segon Plat:\nPollastre arrebossat amb patates / Dolç sense gluten
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Sopa / Pollastre arrebossat — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260515@school
+DTSTART;TZID=Europe/Madrid:20260515T130000
+DTEND;TZID=Europe/Madrid:20260515T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\n"Fabada asturiana"\n\n🍽️ Segon Plat:\nTruita francesa / Enciam\, pastanaga ratlladat i olives negres\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: "Fabada asturiana" / Truita francesa / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260518@school
+DTSTART;TZID=Europe/Madrid:20260518T130000
+DTEND;TZID=Europe/Madrid:20260518T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nCrema de verdura de temporada\n\n🍽️ Segon Plat:\nPollastre a la planxa / Enciam\, tomàquet\, ceba i blat de moro\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Crema de verdura de temporada / Pollastre a la planxa / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260519@school
+DTSTART;TZID=Europe/Madrid:20260519T130000
+DTEND;TZID=Europe/Madrid:20260519T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nPasta amb salsa de formatges\n\n🍽️ Segon Plat:\nPeix rostit amb verdures / Iceberg\, soja i blat de moro\n\n🍮 Postres:\nIogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Pasta / Peix rostit — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260520@school
+DTSTART;TZID=Europe/Madrid:20260520T130000
+DTEND;TZID=Europe/Madrid:20260520T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet natural\n\n🍽️ Segon Plat:\nTruita tombada / Enciam\, pipes\, ceba i poma\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs / Truita tombada / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260521@school
+DTSTART;TZID=Europe/Madrid:20260521T130000
+DTEND;TZID=Europe/Madrid:20260521T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nCarn magra de porc rostit amb verdures / Enciam\, olives i ceba\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Llenties estofades / Carn magra de porc rostit — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260522@school
+DTSTART;TZID=Europe/Madrid:20260522T130000
+DTEND;TZID=Europe/Madrid:20260522T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nBròquil\, pastanaga\, patata i mongeta verda amb oli d'oliva\n\n🍽️ Segon Plat:\nPollastre al forn amb verdures / Tomàquet\, ceba i soja\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Bròquil / Pollastre al forn — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260525@school
+DTSTART;TZID=Europe/Madrid:20260525T130000
+DTEND;TZID=Europe/Madrid:20260525T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de pasta\n\n🍽️ Segon Plat:\nCalamars a la romana / Enciam\, tomàquet\, ceba i blat de moro\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Amanida fresca de pasta / Calamars a la romana / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260526@school
+DTSTART;TZID=Europe/Madrid:20260526T130000
+DTEND;TZID=Europe/Madrid:20260526T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nCigrons estofats amb espinacs\n\n🍽️ Segon Plat:\nAletes de pollastre al forn / Iceberg\, olives\, soja i blat de moro\n\n🍮 Postres:\nIogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Cigrons estofats / Aletes de pollastre al forn / Icebe — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260527@school
+DTSTART;TZID=Europe/Madrid:20260527T130000
+DTEND;TZID=Europe/Madrid:20260527T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de patata\n\n🍽️ Segon Plat:\nFruita tombada / Enciam\, tomàquet\, ceba i soja\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Amanida fresca de patata / Fruita tombada / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260528@school
+DTSTART;TZID=Europe/Madrid:20260528T130000
+DTEND;TZID=Europe/Madrid:20260528T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca d'arròs\n\n🍽️ Segon Plat:\nPeix amb salsa de tomàquet natural / Enciam\, olives i soja\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Amanida fresca d'arròs / Peix — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260529@school
+DTSTART;TZID=Europe/Madrid:20260529T130000
+DTEND;TZID=Europe/Madrid:20260529T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nTrinxat de col i patata amb daus de gall dindi\n\n🍽️ Segon Plat:\nBunyols de bacallà / Enciam\, pastanaga i poma\n\n🍮 Postres:\nFruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Trinxat de col i patata / Bunyols de bacallà / Enciam — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
