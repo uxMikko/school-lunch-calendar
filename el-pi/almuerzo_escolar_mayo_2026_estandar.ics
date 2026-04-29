@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Almuerzo Escolar - Mayo 2026 - Estándar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Almuerzo Escolar - Mayo 2026 - Estándar
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260504@school
+DTSTART;TZID=Europe/Madrid:20260504T130000
+DTEND;TZID=Europe/Madrid:20260504T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nColiflor\, zanahoria\, patata y brócoli\n\n🍽️ Segundo Plato:\nBuñuelos de bacalao / Lechuga\, zanahoria y soja\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y huevo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Coliflor / Buñuelos de bacalao / Lechuga — Cena: Sopa y huevo
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260505@school
+DTSTART;TZID=Europe/Madrid:20260505T130000
+DTEND;TZID=Europe/Madrid:20260505T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nTallarines integrales con verduras y salsa de soja\n\n🍽️ Segundo Plato:\nPescado al horno con verduras / Lechuga\, tomate y aceitunas\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nVerdura y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Tallarines integrales / Pescado al horno — Cena: Verdura y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260506@school
+DTSTART;TZID=Europe/Madrid:20260506T130000
+DTEND;TZID=Europe/Madrid:20260506T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con quinoa y verduras\n\n🍽️ Segundo Plato:\nAlbóndigas con salsa de verduras / Lechuga\, aceitunas y cebolla\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y arroz
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Lentejas estofadas / Albóndigas — Cena: Ensalada y arroz
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260507@school
+DTSTART;TZID=Europe/Madrid:20260507T130000
+DTEND;TZID=Europe/Madrid:20260507T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nCrema de verduras con tostadas de pan\n\n🍽️ Segundo Plato:\nPollo asado / Lechuga\, maíz y zanahoria\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Crema de verduras / Pollo asado / Lechuga — Cena: Ensalada y pescado blanco
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260511@school
+DTSTART;TZID=Europe/Madrid:20260511T130000
+DTEND;TZID=Europe/Madrid:20260511T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nFideos a la cazuela con verduras\n\n🍽️ Segundo Plato:\nButifarra de pagés a la plancha / Lechuga\, aceitunas y cebolla\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Fideos a la cazuela / Butifarra de pagés a la plancha / L — Cena: Sopa y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260512@school
+DTSTART;TZID=Europe/Madrid:20260512T130000
+DTEND;TZID=Europe/Madrid:20260512T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nArroz tres delicias (guisantes\, dados de pavo\, huevo y zanahoria)\n\n🍽️ Segundo Plato:\nPescado asado con verduras / Tomate\, cebolla y soja\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nVerduras y carne roja
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz tres delicias (guisantes / Pescado asado — Cena: Verduras y carne roja
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260513@school
+DTSTART;TZID=Europe/Madrid:20260513T130000
+DTEND;TZID=Europe/Madrid:20260513T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nJudía tierna con patatas y zanahoria\n\n🍽️ Segundo Plato:\nPavo asado con verduras / Lechuga\, aceitunas y cebolla\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado azul
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Judía tierna / Pavo asado — Cena: Ensalada y pescado azul
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260514@school
+DTSTART;TZID=Europe/Madrid:20260514T130000
+DTEND;TZID=Europe/Madrid:20260514T140000
+SUMMARY:🍽️ Almuerzo El Pi - ⭐ Día Favorito ⭐
+DESCRIPTION:⭐ Día Favorito\n🥗 Primer Plato:\nSopa con fideos\n\n🍽️ Segundo Plato:\nPollo rebozado con patatas / Pastel de la casa
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Sopa / Pollo rebozado — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260515@school
+DTSTART;TZID=Europe/Madrid:20260515T130000
+DTEND;TZID=Europe/Madrid:20260515T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\n"Fabada asturiana" con chorizo\n\n🍽️ Segundo Plato:\nTortilla francesa / Lechuga\, zanahoria rallada y aceitunas negras\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: "Fabada asturiana" / Tortilla francesa / Lechuga — Cena: Ensalada y pescado blanco
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260518@school
+DTSTART;TZID=Europe/Madrid:20260518T130000
+DTEND;TZID=Europe/Madrid:20260518T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nCrema de verdura de temporada\n\n🍽️ Segundo Plato:\nCroquetas de bacalao / Lechuga\, tomate\, cebolla y maíz\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Crema de verdura de temporada / Croquetas de bacalao / Lechuga — Cena: Sopa y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260519@school
+DTSTART;TZID=Europe/Madrid:20260519T130000
+DTEND;TZID=Europe/Madrid:20260519T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nPasta con salsa de quesos\n\n🍽️ Segundo Plato:\nPescado asado con verduras / Iceberg\, soja y maíz\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nVerduras y legumbre
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Pasta / Pescado asado — Cena: Verduras y legumbre
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260520@school
+DTSTART;TZID=Europe/Madrid:20260520T130000
+DTEND;TZID=Europe/Madrid:20260520T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nArroz con salsa de tomate natural\n\n🍽️ Segundo Plato:\nTortilla volteada / Lechuga\, pipas\, cebolla y manzana\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Tortilla volteada / Lechuga — Cena: Ensalada y pescado blanco
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260521@school
+DTSTART;TZID=Europe/Madrid:20260521T130000
+DTEND;TZID=Europe/Madrid:20260521T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nCarne magra de cerdo asado con verduras / Lechuga\, aceitunas y cebolla\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nVerduras y arroz
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Lentejas estofadas / Carne magra de cerdo asado — Cena: Verduras y arroz
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260522@school
+DTSTART;TZID=Europe/Madrid:20260522T130000
+DTEND;TZID=Europe/Madrid:20260522T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nBrócoli\, zanahoria\, patata y judía verde con aceite de oliva\n\n🍽️ Segundo Plato:\nPollo al horno con verduras / Tomate\, cebolla y soja\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y huevo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Brócoli / Pollo al horno — Cena: Ensalada y huevo
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260525@school
+DTSTART;TZID=Europe/Madrid:20260525T130000
+DTEND;TZID=Europe/Madrid:20260525T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de pasta\n\n🍽️ Segundo Plato:\nCalamares a la romana / Lechuga\, tomate\, cebolla y maíz\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y carne blanca
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Ensalada fresca de pasta / Calamares a la romana / Lechuga — Cena: Sopa y carne blanca
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260526@school
+DTSTART;TZID=Europe/Madrid:20260526T130000
+DTEND;TZID=Europe/Madrid:20260526T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nGarbanzos estofados con espinacas\n\n🍽️ Segundo Plato:\nAlitas de pollo al horno / Iceberg\, aceitunas\, soja y maíz\n\n🍮 Postre:\nYogur "La Fageda"\n\n🌙 Cena Sugerida:\nEnsalada y carne roja
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Garbanzos estofados / Alitas de pollo al horno / Iceberg — Cena: Ensalada y carne roja
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260527@school
+DTSTART;TZID=Europe/Madrid:20260527T130000
+DTEND;TZID=Europe/Madrid:20260527T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de patata\n\n🍽️ Segundo Plato:\nTortilla volteada / Lechuga\, tomate\, cebolla y soja\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nVerduras y legumbre
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Ensalada fresca de patata / Tortilla volteada / Lechuga — Cena: Verduras y legumbre
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260528@school
+DTSTART;TZID=Europe/Madrid:20260528T130000
+DTEND;TZID=Europe/Madrid:20260528T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de arroz\n\n🍽️ Segundo Plato:\nPescado con salsa de tomate natural / Lechuga\, aceitunas y soja\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nSopa y huevo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Ensalada fresca de arroz / Pescado — Cena: Sopa y huevo
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-standard-es-20260529@school
+DTSTART;TZID=Europe/Madrid:20260529T130000
+DTEND;TZID=Europe/Madrid:20260529T140000
+SUMMARY:🍽️ Almuerzo El Pi
+DESCRIPTION:🥗 Primer Plato:\nTrinchado de col y patata con dados de pavo\n\n🍽️ Segundo Plato:\nBuñuelos de bacalao / Lechuga\, zanahoria y manzana\n\n🍮 Postre:\nFruta del tiempo\n\n🌙 Cena Sugerida:\nEnsalada y pescado blanco
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Trinchado de col y patata / Buñuelos de bacalao / Lechuga — Cena: Ensalada y pescado blanco
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
