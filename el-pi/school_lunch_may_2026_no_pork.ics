@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//School Lunch - May 2026 - No Pork//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:School Lunch - May 2026 - No Pork
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260504@school
+DTSTART;TZID=Europe/Madrid:20260504T130000
+DTEND;TZID=Europe/Madrid:20260504T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nCauliflower\, carrot\, potato and broccoli\n\n🍽️ Main Course:\nCod fritters / Lettuce\, carrot and soy\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Cauliflower / Cod fritters / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260505@school
+DTSTART;TZID=Europe/Madrid:20260505T130000
+DTEND;TZID=Europe/Madrid:20260505T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nWhole wheat noodles with vegetables and soy sauce\n\n🍽️ Main Course:\nBaked fish with vegetables / Lettuce\, tomato and olives\n\n🍮 Dessert:\nYogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Whole wheat noodles / Baked fish — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260506@school
+DTSTART;TZID=Europe/Madrid:20260506T130000
+DTEND;TZID=Europe/Madrid:20260506T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nStewed lentils with quinoa and vegetables\n\n🍽️ Main Course:\nMeatballs with vegetable sauce / Lettuce\, olives and onion\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Stewed lentils / Meatballs — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260507@school
+DTSTART;TZID=Europe/Madrid:20260507T130000
+DTEND;TZID=Europe/Madrid:20260507T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nVegetable cream with bread toasts\n\n🍽️ Main Course:\nRoast chicken / Lettuce\, corn and carrot\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Vegetable cream / Roast chicken / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260511@school
+DTSTART;TZID=Europe/Madrid:20260511T130000
+DTEND;TZID=Europe/Madrid:20260511T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nCasserole noodles with vegetables\n\n🍽️ Main Course:\nCheese omelette / Lettuce\, olives and onion\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Casserole noodles / Cheese omelette / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260512@school
+DTSTART;TZID=Europe/Madrid:20260512T130000
+DTEND;TZID=Europe/Madrid:20260512T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nThree delicacies rice (peas\, turkey cubes\, egg and carrot)\n\n🍽️ Main Course:\nRoast fish with vegetables / Tomato\, onion and soy\n\n🍮 Dessert:\nYogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Three delicacies rice (peas / Roast fish — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260513@school
+DTSTART;TZID=Europe/Madrid:20260513T130000
+DTEND;TZID=Europe/Madrid:20260513T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nGreen beans with potatoes and carrot\n\n🍽️ Main Course:\nRoast turkey with vegetables / Lettuce\, olives and onion\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Green beans / Roast turkey — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260514@school
+DTSTART;TZID=Europe/Madrid:20260514T130000
+DTEND;TZID=Europe/Madrid:20260514T140000
+SUMMARY:🍽️ El Pi lunch - No pork - ⭐ Favourite Day ⭐
+DESCRIPTION:⭐ Favourite Day\n🥗 First Course:\nSoup with noodles\n\n🍽️ Main Course:\nBreaded chicken with potatoes / Homemade cake
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Soup / Breaded chicken — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260515@school
+DTSTART;TZID=Europe/Madrid:20260515T130000
+DTEND;TZID=Europe/Madrid:20260515T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\n"Asturian fabada"\n\n🍽️ Main Course:\nFrench omelette / Lettuce\, grated carrot and black olives\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: "Asturian fabada" / French omelette / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260518@school
+DTSTART;TZID=Europe/Madrid:20260518T130000
+DTEND;TZID=Europe/Madrid:20260518T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nSeasonal vegetable cream\n\n🍽️ Main Course:\nCod croquettes / Lettuce\, tomato\, onion and corn\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Seasonal vegetable cream / Cod croquettes / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260519@school
+DTSTART;TZID=Europe/Madrid:20260519T130000
+DTEND;TZID=Europe/Madrid:20260519T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nPasta with cheese sauce\n\n🍽️ Main Course:\nRoast fish with vegetables / Iceberg\, soy and corn\n\n🍮 Dessert:\nYogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Pasta / Roast fish — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260520@school
+DTSTART;TZID=Europe/Madrid:20260520T130000
+DTEND;TZID=Europe/Madrid:20260520T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nRice with natural tomato sauce\n\n🍽️ Main Course:\nTurned omelette / Lettuce\, sunflower seeds\, onion and apple\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Rice / Turned omelette / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260521@school
+DTSTART;TZID=Europe/Madrid:20260521T130000
+DTEND;TZID=Europe/Madrid:20260521T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nStewed lentils with vegetables\n\n🍽️ Main Course:\nStewed turkey with vegetables / Lettuce\, olives and onion\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Stewed lentils / Stewed turkey — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260522@school
+DTSTART;TZID=Europe/Madrid:20260522T130000
+DTEND;TZID=Europe/Madrid:20260522T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nBroccoli\, carrot\, potato and green beans with olive oil\n\n🍽️ Main Course:\nBaked chicken with vegetables / Tomato\, onion and soy\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Broccoli / Baked chicken — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260525@school
+DTSTART;TZID=Europe/Madrid:20260525T130000
+DTEND;TZID=Europe/Madrid:20260525T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nFresh pasta salad\n\n🍽️ Main Course:\nRoman-style squid / Lettuce\, tomato\, onion and corn\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Fresh pasta salad / Roman-style squid / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260526@school
+DTSTART;TZID=Europe/Madrid:20260526T130000
+DTEND;TZID=Europe/Madrid:20260526T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nStewed chickpeas with spinach\n\n🍽️ Main Course:\nBaked chicken wings / Iceberg\, olives\, soy and corn\n\n🍮 Dessert:\nYogurt "La Fageda"
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Stewed chickpeas / Baked chicken wings / Iceberg — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260527@school
+DTSTART;TZID=Europe/Madrid:20260527T130000
+DTEND;TZID=Europe/Madrid:20260527T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nFresh potato salad\n\n🍽️ Main Course:\nTurned omelette / Lettuce\, tomato\, onion and soy\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Fresh potato salad / Turned omelette / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260528@school
+DTSTART;TZID=Europe/Madrid:20260528T130000
+DTEND;TZID=Europe/Madrid:20260528T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nFresh rice salad\n\n🍽️ Main Course:\nFish with natural tomato sauce / Lettuce\, olives and soy\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Fresh rice salad / Fish — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:lunch-no_pork-en-20260529@school
+DTSTART;TZID=Europe/Madrid:20260529T130000
+DTEND;TZID=Europe/Madrid:20260529T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nCabbage and potato hash with turkey cubes\n\n🍽️ Main Course:\nCod fritters / Lettuce\, carrot and apple\n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Cabbage and potato hash / Cod fritters / Lettuce — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
