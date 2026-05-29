@@ -26,11 +26,11 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-ca-20260602@school
-DTSTART;TZID=Europe/Madrid:20260602T130000
-DTEND;TZID=Europe/Madrid:20260602T140000
+UID:lunch-gluten_free-ca-20260601@school
+DTSTART;TZID=Europe/Madrid:20260601T130000
+DTEND;TZID=Europe/Madrid:20260601T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nPasta integral amb bolonyesa de vedella / Tomàquet ECO\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nPasta integral amb bolonyesa de vedella i tomàquet ECO / Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -39,11 +39,11 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-ca-20260603@school
-DTSTART;TZID=Europe/Madrid:20260603T130000
-DTEND;TZID=Europe/Madrid:20260603T140000
+UID:lunch-gluten_free-ca-20260602@school
+DTSTART;TZID=Europe/Madrid:20260602T130000
+DTEND;TZID=Europe/Madrid:20260602T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nMinestra de verdures\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, blat de moro i tomàquet\n\n🍮 Postres:\nIogurt "La Fageda" sense sucre
+DESCRIPTION:🥗 Primer Plat:\nMinestra de verdures\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, blat de moro i tomàquet iogurt "La Fageda" sense sucre
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -52,11 +52,11 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-gluten_free-ca-20260604@school
-DTSTART;TZID=Europe/Madrid:20260604T130000
-DTEND;TZID=Europe/Madrid:20260604T140000
-SUMMARY:🍽️ Dinar El Pi sense gluten - ⭐ Dia Preferit ⭐
-DESCRIPTION:⭐ Dia Preferit\n🥗 Primer Plat:\nCigrons estofats amb verdures\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps
+UID:lunch-gluten_free-ca-20260603@school
+DTSTART;TZID=Europe/Madrid:20260603T130000
+DTEND;TZID=Europe/Madrid:20260603T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten
+DESCRIPTION:🥗 Primer Plat:\nCigrons estofats amb verdures\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, blat de moro i ceba Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -65,15 +65,28 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
+UID:lunch-gluten_free-ca-20260604@school
+DTSTART;TZID=Europe/Madrid:20260604T130000
+DTEND;TZID=Europe/Madrid:20260604T140000
+SUMMARY:🍽️ Dinar El Pi sense gluten - ⭐ Dia Preferit ⭐
+DESCRIPTION:⭐ Dia Preferit\n🥗 Primer Plat:\nArròs amb tomàquet ECO\n\n🍽️ Segon Plat:\nPit de pollastre arrebossat amb patates / Fruita del temps
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Dinar: Arròs / Pit de pollastre arrebossat — planifica el sopar per no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
 UID:lunch-gluten_free-ca-20260605@school
 DTSTART;TZID=Europe/Madrid:20260605T130000
 DTEND;TZID=Europe/Madrid:20260605T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nMongeta tendra amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nBotifarra de pàges a la planxa / Enciam ECO\, pastanaga i olives\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nMongeta tendra amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nBotifarra de pagès a la planxa / Enciam ECO\, pastanaga i olives Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Mongeta tendra / Botifarra de pàges a la planxa / En — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Mongeta tendra / Botifarra de pagès a la planxa / En — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -82,11 +95,11 @@ UID:lunch-gluten_free-ca-20260608@school
 DTSTART;TZID=Europe/Madrid:20260608T130000
 DTEND;TZID=Europe/Madrid:20260608T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nBròquil integral ECO\, mongeta verda i pèsols\n\n🍽️ Segon Plat:\nEstofat de sèpia amb patates / \n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nBròquil pastanaga ECO\, mongeta verda i pèsols\n\n🍽️ Segon Plat:\nEstofat de sépia amb patates / Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Bròquil integral ECO / Estofat de sèpia — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Bròquil pastanaga ECO / Estofat de sépia — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -95,7 +108,7 @@ UID:lunch-gluten_free-ca-20260609@school
 DTSTART;TZID=Europe/Madrid:20260609T130000
 DTEND;TZID=Europe/Madrid:20260609T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de mongetes blanques\n\n🍽️ Segon Plat:\nPeix al forn amb salsa verda / Enciam ECO\, cogombre i pastanaga\n\n🍮 Postres:\nIogurt "La Fageda" sense sucre
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de mongetes blanques\n\n🍽️ Segon Plat:\nPeix al forn amb salsa verda / Enciam ECO\, cogombre i pastanaga iogurt "La Fageda" sense sucre
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -108,7 +121,7 @@ UID:lunch-gluten_free-ca-20260610@school
 DTSTART;TZID=Europe/Madrid:20260610T130000
 DTEND;TZID=Europe/Madrid:20260610T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de pasta\n\n🍽️ Segon Plat:\nLlom de porc rostit amb ceba / Enciam ECO\, tomàquet i olives negres\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de pasta\n\n🍽️ Segon Plat:\nLlom de porc rostit amb ceba / Enciam ECO\, tomàquet i olives negres Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -121,7 +134,7 @@ UID:lunch-gluten_free-ca-20260611@school
 DTSTART;TZID=Europe/Madrid:20260611T130000
 DTEND;TZID=Europe/Madrid:20260611T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nAmanida d'arròs integral\n\n🍽️ Segon Plat:\nPollastre al forn amb herbes aromàtiques / Enciam ECO\, soja i poma\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nAmanida d'arròs integral\n\n🍽️ Segon Plat:\nPollastre al forn amb herbes aromàtiques / Enciam ECO\, soja i poma Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -134,11 +147,11 @@ UID:lunch-gluten_free-ca-20260612@school
 DTSTART;TZID=Europe/Madrid:20260612T130000
 DTEND;TZID=Europe/Madrid:20260612T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nCigrons bullits amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nOus durs de pàges amb salsa de tomàquet / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nCigrons bullits amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nOus durs de pagès amb salsa de tomàquet / Enciam ECO\, blat de moro i ceba Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Cigrons bullits / Ous durs de pàges — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Cigrons bullits / Ous durs de pagès — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -147,7 +160,7 @@ UID:lunch-gluten_free-ca-20260615@school
 DTSTART;TZID=Europe/Madrid:20260615T130000
 DTEND;TZID=Europe/Madrid:20260615T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nTall de llom a la jardinera / Iceberg ECO\, olives i pastanaga\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nTall de llom a la jardinera / Iceberg ECO\, olives i pastanaga Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -160,11 +173,11 @@ UID:lunch-gluten_free-ca-20260616@school
 DTSTART;TZID=Europe/Madrid:20260616T130000
 DTEND;TZID=Europe/Madrid:20260616T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nCrema de verdures semifreda\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Enciam ECO\, taronja i ceba\n\n🍮 Postres:\nIogurt "La Fageda" sense sucre
+DESCRIPTION:🥗 Primer Plat:\nCrema de verdures\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Enciam ECO\, taronja i ceba iogurt "La Fageda" sense sucre
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Crema de verdures semifreda / Gall dindi rostit — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Crema de verdures / Gall dindi rostit — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -173,7 +186,7 @@ UID:lunch-gluten_free-ca-20260617@school
 DTSTART;TZID=Europe/Madrid:20260617T130000
 DTEND;TZID=Europe/Madrid:20260617T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nPasta integral a la napolitana\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, olives i tomàquet\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nPasta integral a la napolitana\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, olives i tomàquet Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -186,11 +199,11 @@ UID:lunch-gluten_free-ca-20260618@school
 DTSTART;TZID=Europe/Madrid:20260618T130000
 DTEND;TZID=Europe/Madrid:20260618T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nVerdura de l'horta amanida\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, tomàquet i blat de moro\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nVerdura de l'horta\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, tomàquet i blat de moro Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Verdura de l'horta amanida / Peix al forn — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Verdura de l'horta / Peix al forn — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -199,7 +212,7 @@ UID:lunch-gluten_free-ca-20260619@school
 DTSTART;TZID=Europe/Madrid:20260619T130000
 DTEND;TZID=Europe/Madrid:20260619T140000
 SUMMARY:🍽️ Dinar El Pi sense gluten
-DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet ECO natural\n\n🍽️ Segon Plat:\nAletes de pollastre al forn amb patates / \n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet ECO natural\n\n🍽️ Segon Plat:\nAletes de pollastre al forn amb patates / Fruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
