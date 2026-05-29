@@ -26,11 +26,11 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-no_pork-es-20260602@school
-DTSTART;TZID=Europe/Madrid:20260602T130000
-DTEND;TZID=Europe/Madrid:20260602T140000
+UID:lunch-no_pork-es-20260601@school
+DTSTART;TZID=Europe/Madrid:20260601T130000
+DTEND;TZID=Europe/Madrid:20260601T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con quinoa y verduras\n\n🍽️ Segundo Plato:\nPasta integral con boloñesa de ternera / Tomate ECO\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con quinoa y verduras\n\n🍽️ Segundo Plato:\nPasta integral con boloñesa de ternera y tomate ECO / Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -39,24 +39,24 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-no_pork-es-20260603@school
-DTSTART;TZID=Europe/Madrid:20260603T130000
-DTEND;TZID=Europe/Madrid:20260603T140000
+UID:lunch-no_pork-es-20260602@school
+DTSTART;TZID=Europe/Madrid:20260602T130000
+DTEND;TZID=Europe/Madrid:20260602T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nMinestra de verduras\n\n🍽️ Segundo Plato:\nPisto / Lechuga ECO\, maíz y tomate\n\n🍮 Postre:\nYogur "La Fageda" sin azúcar
+DESCRIPTION:🥗 Primer Plato:\nMinestra de verduras\n\n🍽️ Segundo Plato:\nFruta tumbada / Lechuga ECO\, maíz y tomate yogur "La Fageda" sin azúcar
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Minestra de verduras / Pisto / Lechuga ECO — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Minestra de verduras / Fruta tumbada / Lechuga ECO — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-no_pork-es-20260604@school
-DTSTART;TZID=Europe/Madrid:20260604T130000
-DTEND;TZID=Europe/Madrid:20260604T140000
-SUMMARY:🍽️ Almuerzo El Pi sin Cerdo - ⭐ Día Favorito ⭐
-DESCRIPTION:⭐ Día Favorito\n🥗 Primer Plato:\nGarbanzos estofados con verduras\n\n🍽️ Segundo Plato:\nPescado al horno con ajo y perejil y verduras / Lechuga ECO\, maíz y cebolla\n\n🍮 Postre:\nFruta del tiempo
+UID:lunch-no_pork-es-20260603@school
+DTSTART;TZID=Europe/Madrid:20260603T130000
+DTEND;TZID=Europe/Madrid:20260603T140000
+SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
+DESCRIPTION:🥗 Primer Plato:\nGarbanzos estofados con verduras\n\n🍽️ Segundo Plato:\nPescado al horno con ajo y perejil y verduras / Lechuga ECO\, maíz y cebolla Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -65,11 +65,24 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
+UID:lunch-no_pork-es-20260604@school
+DTSTART;TZID=Europe/Madrid:20260604T130000
+DTEND;TZID=Europe/Madrid:20260604T140000
+SUMMARY:🍽️ Almuerzo El Pi sin Cerdo - ⭐ Día Favorito ⭐
+DESCRIPTION:⭐ Día Favorito\n🥗 Primer Plato:\nArroz con tomate ECO\n\n🍽️ Segundo Plato:\nPechuga de pollo rebozada con patatas / Fruta del tiempo
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo: Arroz / Pechuga de pollo rebozada — planifica la cena para no repetir!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
 UID:lunch-no_pork-es-20260605@school
 DTSTART;TZID=Europe/Madrid:20260605T130000
 DTEND;TZID=Europe/Madrid:20260605T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nJudía tierna con patata y aceite de oliva\n\n🍽️ Segundo Plato:\nPavo a la plancha / Lechuga ECO\, zanahoria y aceitunas\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nJudía tierna con patata y aceite de oliva\n\n🍽️ Segundo Plato:\nPavo a la plancha / Lechuga ECO\, zanahoria y aceitunas Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -82,11 +95,11 @@ UID:lunch-no_pork-es-20260608@school
 DTSTART;TZID=Europe/Madrid:20260608T130000
 DTEND;TZID=Europe/Madrid:20260608T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nBrócoli integral ECO\, judía verde y guisantes\n\n🍽️ Segundo Plato:\nEstofado de sepia con patatas / \n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nBrócoli zanahoria ECO\, judía verde y guisantes\n\n🍽️ Segundo Plato:\nEstofado de sepia con patatas / Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Brócoli integral ECO / Estofado de sepia — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Brócoli zanahoria ECO / Estofado de sepia — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
@@ -95,7 +108,7 @@ UID:lunch-no_pork-es-20260609@school
 DTSTART;TZID=Europe/Madrid:20260609T130000
 DTEND;TZID=Europe/Madrid:20260609T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de alubias blancas\n\n🍽️ Segundo Plato:\nPescado al horno con salsa verde / Lechuga ECO\, pepino y zanahoria\n\n🍮 Postre:\nYogur "La Fageda" sin azúcar
+DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de alubias blancas\n\n🍽️ Segundo Plato:\nPescado al horno con salsa verde / Lechuga ECO\, pepino y zanahoria yogur "La Fageda" sin azúcar
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -108,7 +121,7 @@ UID:lunch-no_pork-es-20260610@school
 DTSTART;TZID=Europe/Madrid:20260610T130000
 DTEND;TZID=Europe/Madrid:20260610T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de pepino y verduras\n\n🍽️ Segundo Plato:\nPavo asado con cebolla / Lechuga ECO\, tomate y aceitunas negras\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nEnsalada fresca de pepino y verduras\n\n🍽️ Segundo Plato:\nPavo asado con cebolla / Lechuga ECO\, tomate y aceitunas negras Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -121,7 +134,7 @@ UID:lunch-no_pork-es-20260611@school
 DTSTART;TZID=Europe/Madrid:20260611T130000
 DTEND;TZID=Europe/Madrid:20260611T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nEnsalada de arroz integral\n\n🍽️ Segundo Plato:\nPollo al horno con hierbas aromáticas / Lechuga ECO\, soja y manzana\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nEnsalada de arroz integral\n\n🍽️ Segundo Plato:\nPollo al horno con hierbas aromáticas / Lechuga ECO\, soja y manzana Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -134,7 +147,7 @@ UID:lunch-no_pork-es-20260612@school
 DTSTART;TZID=Europe/Madrid:20260612T130000
 DTEND;TZID=Europe/Madrid:20260612T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nGarbanzos hervidos con patata y aceite de oliva\n\n🍽️ Segundo Plato:\nHuevos duros de corral con salsa de tomate / Lechuga ECO\, maíz y cebolla\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nGarbanzos hervidos con patata y aceite de oliva\n\n🍽️ Segundo Plato:\nHuevos duros de corral con salsa de tomate / Lechuga ECO\, maíz y cebolla Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -147,7 +160,7 @@ UID:lunch-no_pork-es-20260615@school
 DTSTART;TZID=Europe/Madrid:20260615T130000
 DTEND;TZID=Europe/Madrid:20260615T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nPollo a la jardinera / Iceberg ECO\, aceitunas y zanahoria\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nLentejas estofadas con verduras\n\n🍽️ Segundo Plato:\nPollo a la jardinera / Iceberg ECO\, aceitunas y zanahoria Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -160,11 +173,11 @@ UID:lunch-no_pork-es-20260616@school
 DTSTART;TZID=Europe/Madrid:20260616T130000
 DTEND;TZID=Europe/Madrid:20260616T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nCrema de verduras semifría\n\n🍽️ Segundo Plato:\nPavo asado con verduras / Lechuga ECO\, naranja y cebolla\n\n🍮 Postre:\nYogur "La Fageda" sin azúcar
+DESCRIPTION:🥗 Primer Plato:\nCrema de verduras\n\n🍽️ Segundo Plato:\nPavo asado con verduras / Lechuga ECO\, naranja y cebolla yogur "La Fageda" sin azúcar
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Crema de verduras semifría / Pavo asado — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Crema de verduras / Pavo asado — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
@@ -173,11 +186,11 @@ UID:lunch-no_pork-es-20260617@school
 DTSTART;TZID=Europe/Madrid:20260617T130000
 DTEND;TZID=Europe/Madrid:20260617T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nPasta integral a la napolitana\n\n🍽️ Segundo Plato:\nPisto / Lechuga ECO\, aceitunas y tomate\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nPasta integral a la napolitana\n\n🍽️ Segundo Plato:\nFruta tumbada / Lechuga ECO\, aceitunas y tomate Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Pasta integral a la napolitana / Pisto / Lechuga ECO — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Pasta integral a la napolitana / Fruta tumbada / Lechuga ECO — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
@@ -186,11 +199,11 @@ UID:lunch-no_pork-es-20260618@school
 DTSTART;TZID=Europe/Madrid:20260618T130000
 DTEND;TZID=Europe/Madrid:20260618T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nVerdura de la huerta aliñada\n\n🍽️ Segundo Plato:\nPescado al horno con ajo y perejil y verduras / Lechuga ECO\, tomate y maíz\n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nVerdura de la huerta\n\n🍽️ Segundo Plato:\nPescado al horno con ajo y perejil y verduras / Lechuga ECO\, tomate y maíz Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo: Verdura de la huerta aliñada / Pescado al horno — planifica la cena para no repetir!
+DESCRIPTION:Almuerzo: Verdura de la huerta / Pescado al horno — planifica la cena para no repetir!
 END:VALARM
 END:VEVENT
 
@@ -199,7 +212,7 @@ UID:lunch-no_pork-es-20260619@school
 DTSTART;TZID=Europe/Madrid:20260619T130000
 DTEND;TZID=Europe/Madrid:20260619T140000
 SUMMARY:🍽️ Almuerzo El Pi sin Cerdo
-DESCRIPTION:🥗 Primer Plato:\nArroz con salsa de tomate ECO natural\n\n🍽️ Segundo Plato:\nAlitas de pollo al horno con patatas / \n\n🍮 Postre:\nFruta del tiempo
+DESCRIPTION:🥗 Primer Plato:\nArroz con salsa de tomate ECO natural\n\n🍽️ Segundo Plato:\nAlitas de pollo al horno con patatas / Fruta del tiempo
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
