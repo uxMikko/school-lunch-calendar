@@ -5,7 +5,7 @@
   --brown:     #3D2B1F;
   --terracotta:#C4623A;
   --sage:      #7A9E7E;
-  --warm-grey: #B8AFA7;
+  --muted:     #6B5D55; /* darkened for WCAG AA ~4.5:1 on cream */
   --card-bg:   #FFFFFF;
 }
 
@@ -38,10 +38,8 @@ header {
 
 .subtitle {
   margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: var(--warm-grey);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--muted);
 }
 
 .month-badge {
@@ -70,11 +68,10 @@ header {
   flex: 1;
   text-align: center;
   padding: 0.5rem;
-  font-size: 0.82rem;
-  letter-spacing: 0.04em;
+  font-size: 0.9rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  color: var(--warm-grey);
+  color: var(--muted);
   font-weight: 400;
   transition: all 0.2s;
   user-select: none;
@@ -120,6 +117,12 @@ header {
 .menu-item:last-child { border-bottom: none; }
 .menu-item:active { background: var(--cream); }
 
+/* Focus style for keyboard navigation — WCAG 2.4.7 */
+.menu-item:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: -2px;
+}
+
 .item-left {
   display: flex;
   align-items: center;
@@ -130,40 +133,57 @@ header {
   font-size: 1.3rem;
   width: 2rem;
   text-align: center;
+  flex-shrink: 0;
 }
 
-.item-text { font-size: 0.95rem; font-weight: 400; }
+.item-text {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
 
+/* WCAG fix: was 0.7rem all-caps #B8AFA7 — now 0.82rem normal #6B5D55 */
 .item-tag {
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--warm-grey);
-  margin-top: 0.1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.15rem;
 }
 
 .subscribe-arrow {
   color: var(--terracotta);
   font-size: 1rem;
-  opacity: 0.6;
+  opacity: 0.7;
+  flex-shrink: 0;
 }
 
 .loading {
   text-align: center;
-  color: var(--warm-grey);
+  color: var(--muted);
   padding: 3rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .footer {
   text-align: center;
-  font-size: 0.78rem;
-  color: var(--warm-grey);
+  font-size: 0.85rem;
+  color: var(--muted);
   margin-top: 3rem;
   line-height: 1.8;
 }
 
-.footer a { color: var(--terracotta); text-decoration: none; }
+.footer a {
+  color: var(--terracotta);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Focus for tab buttons */
+.lang-tab:focus-visible {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 2px;
+}
 
 @media (max-width: 520px) {
   body { padding: 1rem 0.75rem 3rem; }

@@ -12,48 +12,82 @@
 
   <header>
     <h1 class="school-name">Menú<br><em>Escola El Pi</em></h1>
-    <p class="subtitle">Calendar subscription</p>
-    <span class="month-badge" id="monthBadge">Loading...</span>
+    <p class="subtitle" id="subtitle">Menú del dinar</p>
+    <span class="month-badge" id="monthBadge">...</span>
   </header>
 
-  <div class="lang-tabs">
-    <button class="lang-tab active" onclick="switchLang('ca')">Català</button>
-    <button class="lang-tab" onclick="switchLang('es')">Castellano</button>
-    <button class="lang-tab" onclick="switchLang('en')">English</button>
+  <div class="lang-tabs" role="tablist" aria-label="Language">
+    <button class="lang-tab active" role="tab" aria-selected="true"  onclick="switchLang('ca')">Català</button>
+    <button class="lang-tab"        role="tab" aria-selected="false" onclick="switchLang('es')">Castellano</button>
+    <button class="lang-tab"        role="tab" aria-selected="false" onclick="switchLang('en')">English</button>
   </div>
 
-  <div id="panel-ca" class="lang-panel active"><div class="loading">Loading...</div></div>
-  <div id="panel-es" class="lang-panel"><div class="loading">Loading...</div></div>
-  <div id="panel-en" class="lang-panel"><div class="loading">Loading...</div></div>
+  <div id="panel-ca" class="lang-panel active" role="tabpanel"><div class="loading">Carregant...</div></div>
+  <div id="panel-es" class="lang-panel"        role="tabpanel"><div class="loading">Cargando...</div></div>
+  <div id="panel-en" class="lang-panel"        role="tabpanel"><div class="loading">Loading...</div></div>
 
-  <div class="footer">
-    Updated automatically each month.<br>
-    Subscribe once — your calendar does the rest.<br><br>
-    <a href="https://www.notion.so/334869ed9fff812484bbd514900dcafa">← Notion page</a>
-  </div>
+  <footer>
+    <p class="footer" id="footer">
+      <span id="footer-update">S'actualitza automàticament cada mes.</span><br>
+      <span id="footer-sub">Subscriu-te una vegada — el calendari fa la resta.</span><br><br>
+      <a href="https://www.notion.so/334869ed9fff812484bbd514900dcafa" id="footer-notion">← Pàgina Notion</a>
+    </p>
+  </footer>
 
   <script>
     const BASE     = 'https://uxmikko.github.io/school-lunch-calendar/el-pi/';
     const MANIFEST = BASE + 'manifest.json';
 
-    const LABELS = {
+    // All UI text per language
+    const UI = {
       ca: {
-        standard:    { text: 'Menú estàndard',  tag: 'Inclou sopar suggerit' },
-        no_pork:     { text: 'Sense porc',       tag: '' },
-        gluten_free: { text: 'Sense gluten',     tag: '' },
+        subtitle:       'Menú del dinar',
+        loading:        'Carregant...',
+        error:          'No s\'ha pogut carregar el menú. Torna-ho a intentar.',
+        footer_update:  'S\'actualitza automàticament cada mes.',
+        footer_sub:     'Subscriu-te una vegada — el calendari fa la resta.',
+        footer_notion:  '← Pàgina Notion',
+        html_lang:      'ca',
+        menus: {
+          standard:    { text: 'Menú estàndard',  tag: 'Inclou sopar suggerit' },
+          no_pork:     { text: 'Sense porc',       tag: '' },
+          gluten_free: { text: 'Sense gluten',     tag: '' },
+        },
       },
       es: {
-        standard:    { text: 'Menú estándar',    tag: 'Con sugerencia de cena' },
-        no_pork:     { text: 'Sin cerdo',        tag: '' },
-        gluten_free: { text: 'Sin gluten',       tag: '' },
+        subtitle:       'Menú del almuerzo',
+        loading:        'Cargando...',
+        error:          'No se ha podido cargar el menú. Inténtalo de nuevo.',
+        footer_update:  'Se actualiza automáticamente cada mes.',
+        footer_sub:     'Suscríbete una vez — el calendario hace el resto.',
+        footer_notion:  '← Página Notion',
+        html_lang:      'es',
+        menus: {
+          standard:    { text: 'Menú estándar',    tag: 'Con sugerencia de cena' },
+          no_pork:     { text: 'Sin cerdo',        tag: '' },
+          gluten_free: { text: 'Sin gluten',       tag: '' },
+        },
       },
       en: {
-        standard:    { text: 'Standard menu',    tag: 'Includes dinner suggestions' },
-        no_pork:     { text: 'No pork',          tag: '' },
-        gluten_free: { text: 'Gluten free',      tag: '' },
+        subtitle:       'Lunch menu',
+        loading:        'Loading...',
+        error:          'Could not load menu. Please try again later.',
+        footer_update:  'Updated automatically each month.',
+        footer_sub:     'Subscribe once — your calendar does the rest.',
+        footer_notion:  '← Notion page',
+        html_lang:      'en',
+        menus: {
+          standard:    { text: 'Standard menu',    tag: 'Includes dinner suggestions' },
+          no_pork:     { text: 'No pork',          tag: '' },
+          gluten_free: { text: 'Gluten free',      tag: '' },
+        },
       },
     };
 
+    let currentLang   = 'ca';
+    let loadedManifest = null;
+
+    // Device-aware: iOS gets webcal://, Android gets Google Calendar add-by-URL
     function subscribeMenu(httpsUrl) {
       const isAndroid = /android/i.test(navigator.userAgent);
       if (isAndroid) {
@@ -69,52 +103,88 @@
     function buildPanel(lang, manifest) {
       const panel  = document.getElementById('panel-' + lang);
       const files  = manifest.files[lang];
-      const labels = LABELS[lang];
+      const ui     = UI[lang];
 
       let html = '<div class="lang-section"><div class="menu-card">';
       ['standard', 'no_pork', 'gluten_free'].forEach(type => {
         const httpsUrl = BASE + files[type];
-        const label    = labels[type];
-        html += `<div class="menu-item" onclick="subscribeMenu('${httpsUrl}')">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">${label.text}</div>
-              ${label.tag ? `<div class="item-tag">${label.tag}</div>` : ''}
+        const label    = ui.menus[type];
+        html += `
+          <div class="menu-item" onclick="subscribeMenu('${httpsUrl}')"
+               role="button" tabindex="0"
+               onkeydown="if(event.key==='Enter'||event.key===' ')subscribeMenu('${httpsUrl}')">
+            <div class="item-left">
+              <span class="item-icon" aria-hidden="true">🍽️</span>
+              <div>
+                <div class="item-text">${label.text}</div>
+                ${label.tag ? `<div class="item-tag">${label.tag}</div>` : ''}
+              </div>
             </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </div>`;
+            <span class="subscribe-arrow" aria-hidden="true">＋</span>
+          </div>`;
       });
       html += '</div></div>';
       panel.innerHTML = html;
     }
 
+    function updatePageText(lang) {
+      const ui = UI[lang];
+      document.documentElement.lang              = ui.html_lang;
+      document.getElementById('subtitle').textContent       = ui.subtitle;
+      document.getElementById('footer-update').textContent  = ui.footer_update;
+      document.getElementById('footer-sub').textContent     = ui.footer_sub;
+      document.getElementById('footer-notion').textContent  = ui.footer_notion;
+    }
+
     function switchLang(lang) {
+      currentLang = lang;
+      const langs = ['ca', 'es', 'en'];
+
       document.querySelectorAll('.lang-tab').forEach((t, i) => {
-        t.classList.toggle('active', ['ca','es','en'][i] === lang);
+        const active = langs[i] === lang;
+        t.classList.toggle('active', active);
+        t.setAttribute('aria-selected', active ? 'true' : 'false');
       });
       document.querySelectorAll('.lang-panel').forEach(p => {
         p.classList.toggle('active', p.id === 'panel-' + lang);
       });
+
+      updatePageText(lang);
+
+      // Update month badge language
+      if (loadedManifest) {
+        const ml = { ca: loadedManifest.month_ca, es: loadedManifest.month_es, en: loadedManifest.month_en }[lang];
+        document.getElementById('monthBadge').textContent = ml + ' ' + loadedManifest.year;
+      }
+    }
+
+    // Detect browser language on load
+    function detectLang() {
+      const ul = navigator.language || 'en';
+      if (ul.startsWith('ca')) return 'ca';
+      if (ul.startsWith('es')) return 'es';
+      return 'en';
     }
 
     fetch(MANIFEST + '?v=' + Date.now())
       .then(r => r.json())
       .then(manifest => {
-        const ul   = navigator.language;
-        const lang = ul.startsWith('es') ? 'es' : ul.startsWith('ca') ? 'ca' : 'en';
-        const ml   = { ca: manifest.month_ca, es: manifest.month_es, en: manifest.month_en }[lang];
-        document.getElementById('monthBadge').textContent = ml + ' ' + manifest.year;
+        loadedManifest = manifest;
+        const lang = detectLang();
+
+        // Build all three panels
         buildPanel('ca', manifest);
         buildPanel('es', manifest);
         buildPanel('en', manifest);
+
+        // Set initial language
+        switchLang(lang);
       })
       .catch(() => {
-        document.getElementById('monthBadge').textContent = 'Error';
-        ['ca','es','en'].forEach(l => {
+        document.getElementById('monthBadge').textContent = '—';
+        ['ca', 'es', 'en'].forEach(l => {
           document.getElementById('panel-' + l).innerHTML =
-            '<div class="loading">Could not load menu. Please try again later.</div>';
+            `<div class="loading">${UI[l].error}</div>`;
         });
       });
   </script>
