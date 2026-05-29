@@ -6,341 +6,25 @@
   <title>Menú Escolar · Escola El Pi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --cream: #F7F3EE;
-      --brown: #3D2B1F;
-      --terracotta: #C4623A;
-      --sage: #7A9E7E;
-      --warm-grey: #B8AFA7;
-      --card-bg: #FFFFFF;
-    }
-
-    body {
-      background: var(--cream);
-      color: var(--brown);
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 300;
-      min-height: 100vh;
-      padding: 2rem 1rem 4rem;
-    }
-
-    header {
-      text-align: center;
-      padding: 3rem 0 2.5rem;
-    }
-
-    .school-name {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(2rem, 6vw, 3.2rem);
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      color: var(--brown);
-    }
-
-    .school-name em {
-      font-style: italic;
-      color: var(--terracotta);
-    }
-
-    .subtitle {
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      color: var(--warm-grey);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .month-badge {
-      display: inline-block;
-      margin-top: 1.5rem;
-      background: var(--terracotta);
-      color: white;
-      font-family: 'DM Serif Display', serif;
-      font-size: 1.1rem;
-      padding: 0.35rem 1.2rem;
-      border-radius: 2rem;
-      letter-spacing: 0.03em;
-    }
-
-    .how-to {
-      max-width: 480px;
-      margin: 0 auto 2.5rem;
-      background: var(--sage);
-      color: white;
-      border-radius: 1rem;
-      padding: 1rem 1.4rem;
-      font-size: 0.85rem;
-      line-height: 1.6;
-      text-align: center;
-    }
-
-    .how-to strong {
-      display: block;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 0.3rem;
-      opacity: 0.85;
-    }
-
-    .lang-section {
-      max-width: 480px;
-      margin: 0 auto 1.5rem;
-    }
-
-    .lang-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--warm-grey);
-      margin-bottom: 0.6rem;
-      padding-left: 0.2rem;
-    }
-
-    .menu-card {
-      background: var(--card-bg);
-      border-radius: 1rem;
-      overflow: hidden;
-      box-shadow: 0 2px 12px rgba(61,43,31,0.06);
-    }
-
-    .menu-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.95rem 1.2rem;
-      border-bottom: 1px solid var(--cream);
-      text-decoration: none;
-      color: var(--brown);
-      transition: background 0.15s;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .menu-item:last-child {
-      border-bottom: none;
-    }
-
-    .menu-item:active {
-      background: var(--cream);
-    }
-
-    .item-left {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .item-icon {
-      font-size: 1.3rem;
-      width: 2rem;
-      text-align: center;
-    }
-
-    .item-text {
-      font-size: 0.95rem;
-      font-weight: 400;
-    }
-
-    .item-tag {
-      font-size: 0.7rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--warm-grey);
-      margin-top: 0.1rem;
-    }
-
-    .subscribe-arrow {
-      color: var(--terracotta);
-      font-size: 1rem;
-      opacity: 0.6;
-    }
-
-    .divider {
-      max-width: 480px;
-      margin: 0 auto 1.5rem;
-      height: 1px;
-      background: var(--warm-grey);
-      opacity: 0.2;
-    }
-
-    .footer {
-      text-align: center;
-      font-size: 0.78rem;
-      color: var(--warm-grey);
-      margin-top: 3rem;
-      line-height: 1.8;
-    }
-
-    .footer a {
-      color: var(--terracotta);
-      text-decoration: none;
-    }
-
-    /* Tab switcher */
-    .lang-tabs {
-      display: flex;
-      max-width: 480px;
-      margin: 0 auto 2rem;
-      background: rgba(61,43,31,0.07);
-      border-radius: 0.6rem;
-      padding: 0.2rem;
-      gap: 0.2rem;
-    }
-
-    .lang-tab {
-      flex: 1;
-      text-align: center;
-      padding: 0.5rem;
-      font-size: 0.82rem;
-      letter-spacing: 0.04em;
-      border-radius: 0.4rem;
-      cursor: pointer;
-      color: var(--warm-grey);
-      font-weight: 400;
-      transition: all 0.2s;
-      user-select: none;
-    }
-
-    .lang-tab.active {
-      background: white;
-      color: var(--brown);
-      font-weight: 500;
-      box-shadow: 0 1px 4px rgba(61,43,31,0.1);
-    }
-
-    .lang-panel { display: none; }
-    .lang-panel.active { display: block; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
     <h1 class="school-name">Menú<br><em>Escola El Pi</em></h1>
     <p class="subtitle">Calendar subscription</p>
-    <span class="month-badge" id="monthBadge">Maig 2026</span>
+    <span class="month-badge" id="monthBadge">Loading...</span>
   </header>
 
-  <div class="how-to">
-    <strong>Before subscribing</strong>
-    Open this page in <strong>Safari</strong> and tap a link below — your calendar will update automatically every month.
-  </div>
-
   <div class="lang-tabs">
-    <div class="lang-tab active" onclick="switchLang('ca')">Català</div>
-    <div class="lang-tab" onclick="switchLang('es')">Castellano</div>
-    <div class="lang-tab" onclick="switchLang('en')">English</div>
+    <button class="lang-tab active" onclick="switchLang('ca')">Català</button>
+    <button class="lang-tab" onclick="switchLang('es')">Castellano</button>
+    <button class="lang-tab" onclick="switchLang('en')">English</button>
   </div>
 
-  <!-- CATALÀ -->
-  <div class="lang-panel active" id="panel-ca">
-    <div class="lang-section">
-      <div class="menu-card">
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/dinar_escolar_maig_2026_estandard.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Menú estàndard</div>
-              <div class="item-tag">Amb sopar suggerit</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/dinar_escolar_maig_2026_sense_porc.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Sense porc</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/dinar_escolar_maig_2026_sense_gluten.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Sense gluten</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- CASTELLANO -->
-  <div class="lang-panel" id="panel-es">
-    <div class="lang-section">
-      <div class="menu-card">
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/almuerzo_escolar_mayo_2026_estandar.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Menú estándar</div>
-              <div class="item-tag">Con sugerencia de cena</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/almuerzo_escolar_mayo_2026_sin_cerdo.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Sin cerdo</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/almuerzo_escolar_mayo_2026_sin_gluten.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Sin gluten</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- ENGLISH -->
-  <div class="lang-panel" id="panel-en">
-    <div class="lang-section">
-      <div class="menu-card">
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/school_lunch_may_2026_standard.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Standard menu</div>
-              <div class="item-tag">Includes dinner suggestions</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/school_lunch_may_2026_no_pork.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">No pork</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-        <a class="menu-item" href="webcal://uxmikko.github.io/school-lunch-calendar/el-pi/school_lunch_may_2026_gluten_free.ics">
-          <div class="item-left">
-            <span class="item-icon">🍽️</span>
-            <div>
-              <div class="item-text">Gluten free</div>
-            </div>
-          </div>
-          <span class="subscribe-arrow">＋</span>
-        </a>
-      </div>
-    </div>
-  </div>
+  <div id="panel-ca" class="lang-panel active"><div class="loading">Loading...</div></div>
+  <div id="panel-es" class="lang-panel"><div class="loading">Loading...</div></div>
+  <div id="panel-en" class="lang-panel"><div class="loading">Loading...</div></div>
 
   <div class="footer">
     Updated automatically each month.<br>
@@ -349,6 +33,63 @@
   </div>
 
   <script>
+    const BASE     = 'https://uxmikko.github.io/school-lunch-calendar/el-pi/';
+    const MANIFEST = BASE + 'manifest.json';
+
+    const LABELS = {
+      ca: {
+        standard:    { text: 'Menú estàndard',  tag: 'Inclou sopar suggerit' },
+        no_pork:     { text: 'Sense porc',       tag: '' },
+        gluten_free: { text: 'Sense gluten',     tag: '' },
+      },
+      es: {
+        standard:    { text: 'Menú estándar',    tag: 'Con sugerencia de cena' },
+        no_pork:     { text: 'Sin cerdo',        tag: '' },
+        gluten_free: { text: 'Sin gluten',       tag: '' },
+      },
+      en: {
+        standard:    { text: 'Standard menu',    tag: 'Includes dinner suggestions' },
+        no_pork:     { text: 'No pork',          tag: '' },
+        gluten_free: { text: 'Gluten free',      tag: '' },
+      },
+    };
+
+    function subscribeMenu(httpsUrl) {
+      const isAndroid = /android/i.test(navigator.userAgent);
+      if (isAndroid) {
+        window.open(
+          'https://calendar.google.com/calendar/r/settings/addbyurl?url=' + encodeURIComponent(httpsUrl),
+          '_blank'
+        );
+      } else {
+        window.location.href = httpsUrl.replace('https://', 'webcal://');
+      }
+    }
+
+    function buildPanel(lang, manifest) {
+      const panel  = document.getElementById('panel-' + lang);
+      const files  = manifest.files[lang];
+      const labels = LABELS[lang];
+
+      let html = '<div class="lang-section"><div class="menu-card">';
+      ['standard', 'no_pork', 'gluten_free'].forEach(type => {
+        const httpsUrl = BASE + files[type];
+        const label    = labels[type];
+        html += `<div class="menu-item" onclick="subscribeMenu('${httpsUrl}')">
+          <div class="item-left">
+            <span class="item-icon">🍽️</span>
+            <div>
+              <div class="item-text">${label.text}</div>
+              ${label.tag ? `<div class="item-tag">${label.tag}</div>` : ''}
+            </div>
+          </div>
+          <span class="subscribe-arrow">＋</span>
+        </div>`;
+      });
+      html += '</div></div>';
+      panel.innerHTML = html;
+    }
+
     function switchLang(lang) {
       document.querySelectorAll('.lang-tab').forEach((t, i) => {
         t.classList.toggle('active', ['ca','es','en'][i] === lang);
@@ -357,6 +98,25 @@
         p.classList.toggle('active', p.id === 'panel-' + lang);
       });
     }
+
+    fetch(MANIFEST + '?v=' + Date.now())
+      .then(r => r.json())
+      .then(manifest => {
+        const ul   = navigator.language;
+        const lang = ul.startsWith('es') ? 'es' : ul.startsWith('ca') ? 'ca' : 'en';
+        const ml   = { ca: manifest.month_ca, es: manifest.month_es, en: manifest.month_en }[lang];
+        document.getElementById('monthBadge').textContent = ml + ' ' + manifest.year;
+        buildPanel('ca', manifest);
+        buildPanel('es', manifest);
+        buildPanel('en', manifest);
+      })
+      .catch(() => {
+        document.getElementById('monthBadge').textContent = 'Error';
+        ['ca','es','en'].forEach(l => {
+          document.getElementById('panel-' + l).innerHTML =
+            '<div class="loading">Could not load menu. Please try again later.</div>';
+        });
+      });
   </script>
 
 </body>
