@@ -1,23 +1,23 @@
 {
-  "month_ca": "Maig",
-  "month_es": "Mayo",
-  "month_en": "May",
+  "month_ca": "Juny",
+  "month_es": "Junio",
+  "month_en": "June",
   "year": 2026,
   "files": {
     "ca": {
-      "standard": "dinar_escolar_maig_2026_estandard.ics",
-      "gluten_free": "dinar_escolar_maig_2026_sense_gluten.ics",
-      "no_pork": "dinar_escolar_maig_2026_sense_porc.ics"
+      "standard": "dinar_escolar_juny_2026_estandard.ics",
+      "gluten_free": "dinar_escolar_juny_2026_sense_gluten.ics",
+      "no_pork": "dinar_escolar_juny_2026_sense_porc.ics"
     },
     "es": {
-      "standard": "almuerzo_escolar_mayo_2026_estandar.ics",
-      "no_pork": "almuerzo_escolar_mayo_2026_sin_cerdo.ics",
-      "gluten_free": "almuerzo_escolar_mayo_2026_sin_gluten.ics"
+      "standard": "almuerzo_escolar_junio_2026_estandar.ics",
+      "no_pork": "almuerzo_escolar_junio_2026_sin_cerdo.ics",
+      "gluten_free": "almuerzo_escolar_junio_2026_sin_gluten.ics"
     },
     "en": {
-      "gluten_free": "school_lunch_may_2026_gluten_free.ics",
-      "no_pork": "school_lunch_may_2026_no_pork.ics",
-      "standard": "school_lunch_may_2026_standard.ics"
+      "gluten_free": "school_lunch_june_2026_gluten_free.ics",
+      "no_pork": "school_lunch_june_2026_no_pork.ics",
+      "standard": "school_lunch_june_2026_standard.ics"
     }
   }
 }
