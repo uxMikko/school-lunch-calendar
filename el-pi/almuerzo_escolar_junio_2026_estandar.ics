@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Almuerzo Escolar - Junio 2026 - Estándar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Almuerzo Escolar - Junio 2026 - Estándar
+X-WR-CALNAME:Almuerzo Escolar - Estándar
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VTIMEZONE
 TZID:Europe/Madrid
