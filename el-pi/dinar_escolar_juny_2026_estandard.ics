@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Dinar Escolar - Juny 2026 - Estàndard//EN
+PRODID:-//Dinar El Pi - Estàndard//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Dinar Escolar - Juny 2026 - Estàndard
+X-WR-CALNAME:Dinar El Pi - Estàndard
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VTIMEZONE
 TZID:Europe/Madrid
@@ -28,7 +28,7 @@ UID:lunch-standard-ca-20260601@school
 DTSTART;TZID=Europe/Madrid:20260601T130000
 DTEND;TZID=Europe/Madrid:20260601T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb quinoa i verdures\n\n🍽️ Segon Plat:\nPasta integral amb bolonyesa de vedella i tomàquet ECO / \n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i peix blanc
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb quinoa i verdures\n\n🍽️ Segon Plat:\nPasta integral amb bolonyesa de vedella i tomàquet ECO / Fruita del temps\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i peix blanc
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -41,11 +41,11 @@ UID:lunch-standard-ca-20260602@school
 DTSTART;TZID=Europe/Madrid:20260602T130000
 DTEND;TZID=Europe/Madrid:20260602T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nMinestra de verdures\n\n🍽️ Segon Plat:\nFruita tombada / \n\n🍮 Postres:\nEnciàm ECO\, blat de moro i tomàquet iogurt La Fageda sense sucre\n\n🌙 Sopar Suggerit:\nAmanida i carn vermella
+DESCRIPTION:🥗 Primer Plat:\nMinestra de verdures\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, blat de moro i tomàquet\n\n🍮 Postres:\nIogurt 'La Fageda' sense sucre\n\n🌙 Sopar Suggerit:\nAmanida i carn vermella
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Minestra de verdures / Fruita tombada /  — Sopar: Amanida i carn vermella
+DESCRIPTION:Dinar: Minestra de verdures / Fruita tombada / Enciam ECO — Sopar: Amanida i carn vermella
 END:VALARM
 END:VEVENT
 
@@ -54,7 +54,7 @@ UID:lunch-standard-ca-20260603@school
 DTSTART;TZID=Europe/Madrid:20260603T130000
 DTEND;TZID=Europe/Madrid:20260603T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nCigrons estofats amb verdures\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / \n\n🍮 Postres:\nEnciàm ECO\, blat de moro i ceba Fruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i ou
+DESCRIPTION:🥗 Primer Plat:\nCigrons estofats amb verdures\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i ou
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -66,8 +66,8 @@ BEGIN:VEVENT
 UID:lunch-standard-ca-20260604@school
 DTSTART;TZID=Europe/Madrid:20260604T130000
 DTEND;TZID=Europe/Madrid:20260604T140000
-SUMMARY:🍽️ Dinar El Pi - ⭐ Dia Preferit ⭐
-DESCRIPTION:⭐ Dia Preferit\n🥗 Primer Plat:\nArròs amb tomàquet ECO\n\n🍽️ Segon Plat:\nPit de pollastre arrebossat amb patates / \n\n🍮 Postres:\nFruita del temps
+SUMMARY:🍽️ Dinar El Pi
+DESCRIPTION:🥗 Primer Plat:\nArròs amb tomàquet ECO\n\n🍽️ Segon Plat:\nPit de pollastre arrebossat amb patates / Fruita del temps\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -80,11 +80,11 @@ UID:lunch-standard-ca-20260605@school
 DTSTART;TZID=Europe/Madrid:20260605T130000
 DTEND;TZID=Europe/Madrid:20260605T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nMongeta tendra amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nGall dindi a la planxa Enciàm ECO\, pastanaga i olives / \n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nVerdures i peix blau
+DESCRIPTION:🥗 Primer Plat:\nMongeta tendra amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nGall dindi a la planxa / Enciam ECO\, pastanaga i olives\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nSopar: Verdures i peix blau
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Mongeta tendra / Gall dindi a la planxa Enciàm ECO — Sopar: Verdures i peix blau
+DESCRIPTION:Dinar: Mongeta tendra / Gall dindi a la planxa / Enciam ECO — Sopar: Sopar: Verdures i peix blau
 END:VALARM
 END:VEVENT
 
@@ -93,11 +93,11 @@ UID:lunch-standard-ca-20260608@school
 DTSTART;TZID=Europe/Madrid:20260608T130000
 DTEND;TZID=Europe/Madrid:20260608T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nBròquil pastanaga ECO\, mongeta verda i pèsols\n\n🍽️ Segon Plat:\nEstofat de sèpia amb patates / \n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nSopa i ou
+DESCRIPTION:🥗 Primer Plat:\nBròquil i pastanaga ECO\, mongeta verda i pèsols\n\n🍽️ Segon Plat:\nEstofat de sèpia amb patates / Fruita del temps\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nSopa i ou
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Bròquil pastanaga ECO / Estofat de sèpia — Sopar: Sopa i ou
+DESCRIPTION:Dinar: Bròquil i pastanaga ECO / Estofat de sèpia — Sopar: Sopa i ou
 END:VALARM
 END:VEVENT
 
@@ -106,11 +106,11 @@ UID:lunch-standard-ca-20260609@school
 DTSTART;TZID=Europe/Madrid:20260609T130000
 DTEND;TZID=Europe/Madrid:20260609T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de mongetes blanques\n\n🍽️ Segon Plat:\nPeix al forn amb salsa verda / \n\n🍮 Postres:\nEnciàm ECO\, cogombre i pastanaga iogurt La Fageda sense sucre\n\n🌙 Sopar Suggerit:\nAmanida i carn blanca
+DESCRIPTION:🥗 Primer Plat:\nAmanida de mongetes blanques\n\n🍽️ Segon Plat:\nPeix al forn amb salsa verda / Enciam ECO\, cogombre i pastanaga\n\n🍮 Postres:\nIogurt 'La Fageda' sense sucre\n\n🌙 Sopar Suggerit:\nAmanida i carn blanca
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Amanida fresca de mongetes blanques / Peix al forn — Sopar: Amanida i carn blanca
+DESCRIPTION:Dinar: Amanida de mongetes blanques / Peix al forn — Sopar: Amanida i carn blanca
 END:VALARM
 END:VEVENT
 
@@ -119,7 +119,7 @@ UID:lunch-standard-ca-20260610@school
 DTSTART;TZID=Europe/Madrid:20260610T130000
 DTEND;TZID=Europe/Madrid:20260610T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de cogombre i verdures\n\n🍽️ Segon Plat:\nLlom de porc rostit amb ceba / \n\n🍮 Postres:\nEnciàm ECO\, tomàquet i olives negres Fruita del temps\n\n🌙 Sopar Suggerit:\nVerdura i peix blau
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de cogombre i verdures\n\n🍽️ Segon Plat:\nLlom de porc rostit amb ceba / Enciam ECO\, tomàquet i olives negres\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nVerdura i peix blau
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -132,7 +132,7 @@ UID:lunch-standard-ca-20260611@school
 DTSTART;TZID=Europe/Madrid:20260611T130000
 DTEND;TZID=Europe/Madrid:20260611T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nAmanida d'arròs integral\n\n🍽️ Segon Plat:\nPollastre al forn amb herbes aromàtiques / \n\n🍮 Postres:\nEnciàm ECO\, soja i poma Fruita del temps\n\n🌙 Sopar Suggerit:\nVerdura i peix blanc
+DESCRIPTION:🥗 Primer Plat:\nAmanida d'arròs integral\n\n🍽️ Segon Plat:\nPollastre al forn amb herbes aromàtiques / Enciam ECO\, soja i poma\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nVerdura i peix blanc
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -145,7 +145,7 @@ UID:lunch-standard-ca-20260612@school
 DTSTART;TZID=Europe/Madrid:20260612T130000
 DTEND;TZID=Europe/Madrid:20260612T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nCigrons bullits amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nOus durs de pàgines amb salsa de tomàquet / \n\n🍮 Postres:\nEnciàm ECO\, blat de moro i ceba Fruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i arròs
+DESCRIPTION:🥗 Primer Plat:\nCigrons bullits amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nOus durs de pàgines amb salsa de tomàquet / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i arròs
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -158,11 +158,11 @@ UID:lunch-standard-ca-20260615@school
 DTSTART;TZID=Europe/Madrid:20260615T130000
 DTEND;TZID=Europe/Madrid:20260615T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nTall de llom a la jardinera Iceberg ECO\, olives i pastanaga / \n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nVerdures i ou
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb verdures\n\n🍽️ Segon Plat:\nTall de llom a la jardinera / Iceberg ECO\, olives i pastanaga\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nVerdures i ou
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Llenties estofades / Tall de llom a la jardinera Iceberg — Sopar: Verdures i ou
+DESCRIPTION:Dinar: Llenties estofades / Tall de llom a la jardinera / Icebe — Sopar: Verdures i ou
 END:VALARM
 END:VEVENT
 
@@ -171,11 +171,11 @@ UID:lunch-standard-ca-20260616@school
 DTSTART;TZID=Europe/Madrid:20260616T130000
 DTEND;TZID=Europe/Madrid:20260616T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nCrema de verdures semitrieda\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / \n\n🍮 Postres:\nEnciàm ECO\, taronja i ceba iogurt La Fageda sense sucre\n\n🌙 Sopar Suggerit:\nVerdura i peix
+DESCRIPTION:🥗 Primer Plat:\nCrema de verdures semifibreda\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Enciam ECO\, taronja i ceba\n\n🍮 Postres:\nIogurt 'La Fageda' sense sucre\n\n🌙 Sopar Suggerit:\nVerdura i peix
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Crema de verdures semitrieda / Gall dindi rostit — Sopar: Verdura i peix
+DESCRIPTION:Dinar: Crema de verdures semifibreda / Gall dindi rostit — Sopar: Verdura i peix
 END:VALARM
 END:VEVENT
 
@@ -184,11 +184,11 @@ UID:lunch-standard-ca-20260617@school
 DTSTART;TZID=Europe/Madrid:20260617T130000
 DTEND;TZID=Europe/Madrid:20260617T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nPasta integral a la napolitana\n\n🍽️ Segon Plat:\nFruita tombada / \n\n🍮 Postres:\nEnciàm ECO\, olives i tomàquet Fruita del temps\n\n🌙 Sopar Suggerit:\nArròs i amanida
+DESCRIPTION:🥗 Primer Plat:\nPasta integral a la napolitana\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, olives i tomàquet\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nArròs i amanida
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Pasta integral a la napolitana / Fruita tombada /  — Sopar: Arròs i amanida
+DESCRIPTION:Dinar: Pasta integral a la napolitana / Fruita tombada / Enciam ECO — Sopar: Arròs i amanida
 END:VALARM
 END:VEVENT
 
@@ -197,7 +197,7 @@ UID:lunch-standard-ca-20260618@school
 DTSTART;TZID=Europe/Madrid:20260618T130000
 DTEND;TZID=Europe/Madrid:20260618T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nVerdura de l'horta amanida\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / \n\n🍮 Postres:\nEnciàm ECO\, tomàquet i blat de moro Fruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i carn vermella
+DESCRIPTION:🥗 Primer Plat:\nVerdura de l'horta amanida\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, tomàquet i blat de moro\n\n🍮 Postres:\nFruita del temps\n\n🌙 Sopar Suggerit:\nAmanida i carn vermella
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -210,7 +210,7 @@ UID:lunch-standard-ca-20260619@school
 DTSTART;TZID=Europe/Madrid:20260619T130000
 DTEND;TZID=Europe/Madrid:20260619T140000
 SUMMARY:🍽️ Dinar El Pi
-DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet ECO natural\n\n🍽️ Segon Plat:\nAletes de pollastre al forn amb patates / \n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet ECO natural\n\n🍽️ Segon Plat:\nAletes de pollastre al forn amb patates / Fruita del temps\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
