@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menú Escolar · Escola El Pi</title>
+  <title>Menú de dinar · Escola El Pi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -11,12 +11,12 @@
 <body>
 
   <header>
-    <h1 class="school-name">Menú<br><em>Escola El Pi</em></h1>
-    <p class="subtitle" id="subtitle">Menú del dinar</p>
-    <span class="month-badge" id="monthBadge">...</span>
+    <h1 class="school-name"><em>Escola El Pi</em></h1>
+    <p class="subtitle" id="uiSubtitle">Subscripció al calendari</p>
+    <span class="month-badge" id="monthBadge">Carregant...</span>
   </header>
 
-  <div class="lang-tabs" role="tablist" aria-label="Language">
+  <div class="lang-tabs" role="tablist" aria-label="Selecciona l'idioma">
     <button class="lang-tab active" role="tab" aria-selected="true"  onclick="switchLang('ca')">Català</button>
     <button class="lang-tab"        role="tab" aria-selected="false" onclick="switchLang('es')">Castellano</button>
     <button class="lang-tab"        role="tab" aria-selected="false" onclick="switchLang('en')">English</button>
@@ -27,27 +27,25 @@
   <div id="panel-en" class="lang-panel"        role="tabpanel"><div class="loading">Loading...</div></div>
 
   <footer>
-    <p class="footer" id="footer">
-      <span id="footer-update">S'actualitza automàticament cada mes.</span><br>
-      <span id="footer-sub">Subscriu-te una vegada — el calendari fa la resta.</span><br><br>
-      <a href="https://www.notion.so/334869ed9fff812484bbd514900dcafa" id="footer-notion">← Pàgina Notion</a>
-    </p>
+    <p class="footer" id="uiFooter">S'actualitza automàticament cada mes. Subscriu-te una vegada.</p>
   </footer>
 
   <script>
     const BASE     = 'https://uxmikko.github.io/school-lunch-calendar/el-pi/';
     const MANIFEST = BASE + 'manifest.json';
 
-    // All UI text per language
+    // All UI strings per language
     const UI = {
       ca: {
-        subtitle:       'Menú del dinar',
-        loading:        'Carregant...',
-        error:          'No s\'ha pogut carregar el menú. Torna-ho a intentar.',
-        footer_update:  'S\'actualitza automàticament cada mes.',
-        footer_sub:     'Subscriu-te una vegada — el calendari fa la resta.',
-        footer_notion:  '← Pàgina Notion',
-        html_lang:      'ca',
+        lang:         'ca',
+        htmlLang:     'ca',
+        title:        'Menú de dinar · Escola El Pi',
+        subtitle:     'Subscripció al calendari',
+        monthLabel:   m => m,
+        section:      'Tria el teu menú',
+        footer:       "S'actualitza automàticament cada mes. Subscriu-te una vegada.",
+        loading:      'Carregant...',
+        error:        "No s'ha pogut carregar el menú. Torna-ho a intentar.",
         menus: {
           standard:    { text: 'Menú estàndard',  tag: 'Inclou sopar suggerit' },
           no_pork:     { text: 'Sense porc',       tag: '' },
@@ -55,27 +53,31 @@
         },
       },
       es: {
-        subtitle:       'Menú del almuerzo',
-        loading:        'Cargando...',
-        error:          'No se ha podido cargar el menú. Inténtalo de nuevo.',
-        footer_update:  'Se actualiza automáticamente cada mes.',
-        footer_sub:     'Suscríbete una vez — el calendario hace el resto.',
-        footer_notion:  '← Página Notion',
-        html_lang:      'es',
+        lang:         'es',
+        htmlLang:     'es',
+        title:        'Menú de almuerzo · Escola El Pi',
+        subtitle:     'Suscripción al calendario',
+        monthLabel:   m => m,
+        section:      'Elige tu menú',
+        footer:       'Se actualiza automáticamente cada mes. Suscríbete una vez.',
+        loading:      'Cargando...',
+        error:        'No se ha podido cargar el menú. Vuelve a intentarlo.',
         menus: {
-          standard:    { text: 'Menú estándar',    tag: 'Con sugerencia de cena' },
+          standard:    { text: 'Menú estándar',    tag: 'Incluye sugerencia de cena' },
           no_pork:     { text: 'Sin cerdo',        tag: '' },
           gluten_free: { text: 'Sin gluten',       tag: '' },
         },
       },
       en: {
-        subtitle:       'Lunch menu',
-        loading:        'Loading...',
-        error:          'Could not load menu. Please try again later.',
-        footer_update:  'Updated automatically each month.',
-        footer_sub:     'Subscribe once — your calendar does the rest.',
-        footer_notion:  '← Notion page',
-        html_lang:      'en',
+        lang:         'en',
+        htmlLang:     'en',
+        title:        'Lunch menu · Escola El Pi',
+        subtitle:     'Calendar subscription',
+        monthLabel:   m => m,
+        section:      'Choose your menu',
+        footer:       'Updated automatically each month. Subscribe once.',
+        loading:      'Loading...',
+        error:        'Could not load menu. Please try again.',
         menus: {
           standard:    { text: 'Standard menu',    tag: 'Includes dinner suggestions' },
           no_pork:     { text: 'No pork',          tag: '' },
@@ -84,10 +86,19 @@
       },
     };
 
-    let currentLang   = 'ca';
-    let loadedManifest = null;
+    const MONTH_NAMES = {
+      ca: { Gener:'Gener',Febrer:'Febrer',Març:'Març',Abril:'Abril',Maig:'Maig',Juny:'Juny',
+            Juliol:'Juliol',Agost:'Agost',Setembre:'Setembre',Octubre:'Octubre',Novembre:'Novembre',Desembre:'Desembre' },
+      es: { Gener:'Enero',Febrer:'Febrero',Març:'Marzo',Abril:'Abril',Maig:'Mayo',Juny:'Junio',
+            Juliol:'Julio',Agost:'Agosto',Setembre:'Septiembre',Octubre:'Octubre',Novembre:'Noviembre',Desembre:'Diciembre' },
+      en: { Gener:'January',Febrer:'February',Març:'March',Abril:'April',Maig:'May',Juny:'June',
+            Juliol:'July',Agost:'August',Setembre:'September',Octubre:'October',Novembre:'November',Desembre:'December' },
+    };
 
-    // Device-aware: iOS gets webcal://, Android gets Google Calendar add-by-URL
+    let manifest  = null;
+    let activeLang = 'ca';
+
+    // Device-aware subscription
     function subscribeMenu(httpsUrl) {
       const isAndroid = /android/i.test(navigator.userAgent);
       if (isAndroid) {
@@ -100,92 +111,89 @@
       }
     }
 
-    function buildPanel(lang, manifest) {
+    function getMonthLabel(lang) {
+      if (!manifest) return '';
+      const caMonth = manifest.month_ca;
+      const translated = MONTH_NAMES[lang][caMonth] || caMonth;
+      return `${translated} ${manifest.year}`;
+    }
+
+    function buildPanel(lang) {
+      if (!manifest) return;
       const panel  = document.getElementById('panel-' + lang);
       const files  = manifest.files[lang];
       const ui     = UI[lang];
 
-      let html = '<div class="lang-section"><div class="menu-card">';
+      let html = `<div class="lang-section"><p class="item-tag" style="padding:0 0.2rem 0.6rem;">${ui.section}</p><div class="menu-card">`;
       ['standard', 'no_pork', 'gluten_free'].forEach(type => {
         const httpsUrl = BASE + files[type];
         const label    = ui.menus[type];
-        html += `
-          <div class="menu-item" onclick="subscribeMenu('${httpsUrl}')"
-               role="button" tabindex="0"
-               onkeydown="if(event.key==='Enter'||event.key===' ')subscribeMenu('${httpsUrl}')">
-            <div class="item-left">
-              <span class="item-icon" aria-hidden="true">🍽️</span>
-              <div>
-                <div class="item-text">${label.text}</div>
-                ${label.tag ? `<div class="item-tag">${label.tag}</div>` : ''}
-              </div>
+        html += `<div class="menu-item" onclick="subscribeMenu('${httpsUrl}')" role="button" tabindex="0"
+                      onkeydown="if(event.key==='Enter'||event.key===' ')subscribeMenu('${httpsUrl}')">
+          <div class="item-left">
+            <span class="item-icon" aria-hidden="true">🍽️</span>
+            <div>
+              <div class="item-text">${label.text}</div>
+              ${label.tag ? `<div class="item-tag">${label.tag}</div>` : ''}
             </div>
-            <span class="subscribe-arrow" aria-hidden="true">＋</span>
-          </div>`;
+          </div>
+          <span class="subscribe-arrow" aria-hidden="true">＋</span>
+        </div>`;
       });
       html += '</div></div>';
       panel.innerHTML = html;
     }
 
-    function updatePageText(lang) {
+    function updatePageUI(lang) {
       const ui = UI[lang];
-      document.documentElement.lang              = ui.html_lang;
-      document.getElementById('subtitle').textContent       = ui.subtitle;
-      document.getElementById('footer-update').textContent  = ui.footer_update;
-      document.getElementById('footer-sub').textContent     = ui.footer_sub;
-      document.getElementById('footer-notion').textContent  = ui.footer_notion;
-    }
+      document.documentElement.lang          = ui.htmlLang;
+      document.title                         = ui.title;
+      document.getElementById('uiSubtitle').textContent = ui.subtitle;
+      document.getElementById('uiFooter').textContent   = ui.footer;
+      document.getElementById('monthBadge').textContent  = getMonthLabel(lang);
 
-    function switchLang(lang) {
-      currentLang = lang;
-      const langs = ['ca', 'es', 'en'];
-
+      // Update aria-selected on tabs
       document.querySelectorAll('.lang-tab').forEach((t, i) => {
-        const active = langs[i] === lang;
-        t.classList.toggle('active', active);
-        t.setAttribute('aria-selected', active ? 'true' : 'false');
+        const isActive = ['ca','es','en'][i] === lang;
+        t.classList.toggle('active', isActive);
+        t.setAttribute('aria-selected', isActive ? 'true' : 'false');
       });
+
       document.querySelectorAll('.lang-panel').forEach(p => {
         p.classList.toggle('active', p.id === 'panel-' + lang);
       });
-
-      updatePageText(lang);
-
-      // Update month badge language
-      if (loadedManifest) {
-        const ml = { ca: loadedManifest.month_ca, es: loadedManifest.month_es, en: loadedManifest.month_en }[lang];
-        document.getElementById('monthBadge').textContent = ml + ' ' + loadedManifest.year;
-      }
     }
 
-    // Detect browser language on load
+    function switchLang(lang) {
+      activeLang = lang;
+      updatePageUI(lang);
+    }
+
+    // Auto-detect language on load
     function detectLang() {
-      const ul = navigator.language || 'en';
-      if (ul.startsWith('ca')) return 'ca';
+      const ul = navigator.language || '';
       if (ul.startsWith('es')) return 'es';
+      if (ul.startsWith('ca')) return 'ca';
       return 'en';
     }
 
     fetch(MANIFEST + '?v=' + Date.now())
       .then(r => r.json())
-      .then(manifest => {
-        loadedManifest = manifest;
+      .then(data => {
+        manifest = data;
+        buildPanel('ca');
+        buildPanel('es');
+        buildPanel('en');
         const lang = detectLang();
-
-        // Build all three panels
-        buildPanel('ca', manifest);
-        buildPanel('es', manifest);
-        buildPanel('en', manifest);
-
-        // Set initial language
-        switchLang(lang);
+        activeLang = lang;
+        updatePageUI(lang);
       })
       .catch(() => {
-        document.getElementById('monthBadge').textContent = '—';
-        ['ca', 'es', 'en'].forEach(l => {
+        ['ca','es','en'].forEach(l => {
           document.getElementById('panel-' + l).innerHTML =
             `<div class="loading">${UI[l].error}</div>`;
         });
+        document.getElementById('monthBadge').textContent = '—';
       });
   </script>
 
