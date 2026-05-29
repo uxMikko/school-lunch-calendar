@@ -24,15 +24,28 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
+UID:lunch-no_pork-en-20260601@school
+DTSTART;TZID=Europe/Madrid:20260601T130000
+DTEND;TZID=Europe/Madrid:20260601T140000
+SUMMARY:🍽️ El Pi lunch - No pork
+DESCRIPTION:🥗 First Course:\nLentil stew with quinoa and vegetables\n\n🍽️ Main Course:\nWhole wheat pasta with veal bolognese and ECO tomato / \n\n🍮 Dessert:\nSeasonal fruit
+BEGIN:VALARM
+TRIGGER;RELATED=END:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Lentil stew / Whole wheat pasta — plan dinner to avoid repeats!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
 UID:lunch-no_pork-en-20260602@school
 DTSTART;TZID=Europe/Madrid:20260602T130000
 DTEND;TZID=Europe/Madrid:20260602T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nVegetable minestrone\n\n🍽️ Main Course:\nPlain omelette / ECO lettuce\, corn and tomato\n\n🍮 Dessert:\nSugar-free 'La Fageda' yogurt
+DESCRIPTION:🥗 First Course:\nVegetable soup\n\n🍽️ Main Course:\nRatatouille / \n\n🍮 Dessert:\nECO lettuce\, corn and tomato La Fageda yogurt without sugar
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Vegetable minestrone / Plain omelette / ECO lettuce — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Vegetable soup / Ratatouille /  — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -41,7 +54,7 @@ UID:lunch-no_pork-en-20260603@school
 DTSTART;TZID=Europe/Madrid:20260603T130000
 DTEND;TZID=Europe/Madrid:20260603T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nChickpea stew with vegetables\n\n🍽️ Main Course:\nBaked fish with garlic and parsley and vegetables / ECO lettuce\, corn and onion\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nChickpea stew with vegetables\n\n🍽️ Main Course:\nBaked fish with garlic and parsley and vegetables / \n\n🍮 Dessert:\nECO lettuce\, corn and onion Seasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -67,11 +80,11 @@ UID:lunch-no_pork-en-20260605@school
 DTSTART;TZID=Europe/Madrid:20260605T130000
 DTEND;TZID=Europe/Madrid:20260605T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nGreen beans with potato and olive oil\n\n🍽️ Main Course:\nGrilled turkey / ECO lettuce\, carrot and olives\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nGreen beans with potato and olive oil\n\n🍽️ Main Course:\nGrilled turkey ECO lettuce\, carrot and olives / \n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Green beans / Grilled turkey / ECO lettuce — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Green beans / Grilled turkey ECO lettuce — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -80,11 +93,11 @@ UID:lunch-no_pork-en-20260608@school
 DTSTART;TZID=Europe/Madrid:20260608T130000
 DTEND;TZID=Europe/Madrid:20260608T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nECO broccoli carrot\, green beans and peas\n\n🍽️ Main Course:\nCuttlefish stew with potatoes / \n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nBroccoli ECO carrot\, green beans and peas\n\n🍽️ Main Course:\nCuttlefish stew with potatoes / \n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: ECO broccoli carrot / Cuttlefish stew — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Broccoli ECO carrot / Cuttlefish stew — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -93,7 +106,7 @@ UID:lunch-no_pork-en-20260609@school
 DTSTART;TZID=Europe/Madrid:20260609T130000
 DTEND;TZID=Europe/Madrid:20260609T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nFresh white bean salad\n\n🍽️ Main Course:\nBaked fish with green sauce / ECO lettuce\, cucumber and carrot\n\n🍮 Dessert:\nSugar-free 'La Fageda' yogurt
+DESCRIPTION:🥗 First Course:\nFresh white bean salad\n\n🍽️ Main Course:\nBaked fish with green sauce / \n\n🍮 Dessert:\nECO lettuce\, cucumber and carrot La Fageda yogurt without sugar
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -106,11 +119,11 @@ UID:lunch-no_pork-en-20260610@school
 DTSTART;TZID=Europe/Madrid:20260610T130000
 DTEND;TZID=Europe/Madrid:20260610T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nFresh cucumber and vegetables salad\n\n🍽️ Main Course:\nRoast turkey with onion / ECO lettuce\, tomato and black olives\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nFresh cucumber and vegetable salad\n\n🍽️ Main Course:\nRoasted turkey with onion / \n\n🍮 Dessert:\nECO lettuce\, tomato and black olives Seasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Fresh cucumber and vegetables salad / Roast turkey — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Fresh cucumber and vegetable salad / Roasted turkey — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -119,7 +132,7 @@ UID:lunch-no_pork-en-20260611@school
 DTSTART;TZID=Europe/Madrid:20260611T130000
 DTEND;TZID=Europe/Madrid:20260611T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nBrown rice salad\n\n🍽️ Main Course:\nBaked chicken with aromatic herbs / ECO lettuce\, soy and apple\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nBrown rice salad\n\n🍽️ Main Course:\nBaked chicken with aromatic herbs / \n\n🍮 Dessert:\nECO lettuce\, soy and apple Seasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -132,11 +145,11 @@ UID:lunch-no_pork-en-20260612@school
 DTSTART;TZID=Europe/Madrid:20260612T130000
 DTEND;TZID=Europe/Madrid:20260612T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nBoiled chickpeas with potato and olive oil\n\n🍽️ Main Course:\nHard-boiled quail eggs with tomato sauce / ECO lettuce\, corn and onion\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nBoiled chickpeas with potato and olive oil\n\n🍽️ Main Course:\nHard-boiled eggs with tomato sauce / \n\n🍮 Dessert:\nECO lettuce\, corn and onion Seasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Boiled chickpeas / Hard-boiled quail eggs — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Boiled chickpeas / Hard-boiled eggs — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -145,11 +158,11 @@ UID:lunch-no_pork-en-20260615@school
 DTSTART;TZID=Europe/Madrid:20260615T130000
 DTEND;TZID=Europe/Madrid:20260615T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nLentil stew with vegetables\n\n🍽️ Main Course:\nChicken jardinière style / ECO iceberg\, olives and carrot\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nLentil stew with vegetables\n\n🍽️ Main Course:\nChicken with mixed vegetables Iceberg ECO\, olives and carrot / \n\n🍮 Dessert:\nSeasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Lentil stew / Chicken jardinière style / ECO iceb — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Lentil stew / Chicken — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -158,11 +171,11 @@ UID:lunch-no_pork-en-20260616@school
 DTSTART;TZID=Europe/Madrid:20260616T130000
 DTEND;TZID=Europe/Madrid:20260616T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nCream of vegetables\n\n🍽️ Main Course:\nRoast turkey with vegetables / ECO lettuce\, orange and onion\n\n🍮 Dessert:\nSugar-free 'La Fageda' yogurt
+DESCRIPTION:🥗 First Course:\nCreamy vegetable soup\n\n🍽️ Main Course:\nRoasted turkey with vegetables / \n\n🍮 Dessert:\nECO lettuce\, orange and onion La Fageda yogurt without sugar
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Cream of vegetables / Roast turkey — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Creamy vegetable soup / Roasted turkey — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -171,11 +184,11 @@ UID:lunch-no_pork-en-20260617@school
 DTSTART;TZID=Europe/Madrid:20260617T130000
 DTEND;TZID=Europe/Madrid:20260617T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nWhole wheat pasta napolitana style\n\n🍽️ Main Course:\nPlain omelette / ECO lettuce\, olives and tomato\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nWhole wheat pasta Neapolitan style\n\n🍽️ Main Course:\nRatatouille / \n\n🍮 Dessert:\nECO lettuce\, olives and tomato Seasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Whole wheat pasta napolitana style / Plain omelette / ECO lettuce — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Whole wheat pasta Neapolitan style / Ratatouille /  — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
@@ -184,11 +197,11 @@ UID:lunch-no_pork-en-20260618@school
 DTSTART;TZID=Europe/Madrid:20260618T130000
 DTEND;TZID=Europe/Madrid:20260618T140000
 SUMMARY:🍽️ El Pi lunch - No pork
-DESCRIPTION:🥗 First Course:\nGarden vegetables salad\n\n🍽️ Main Course:\nBaked fish with garlic and parsley and vegetables / ECO lettuce\, tomato and corn\n\n🍮 Dessert:\nSeasonal fruit
+DESCRIPTION:🥗 First Course:\nGarden vegetable salad\n\n🍽️ Main Course:\nBaked fish with garlic and parsley and vegetables / \n\n🍮 Dessert:\nECO lettuce\, tomato and corn Seasonal fruit
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Lunch: Garden vegetables salad / Baked fish — plan dinner to avoid repeats!
+DESCRIPTION:Lunch: Garden vegetable salad / Baked fish — plan dinner to avoid repeats!
 END:VALARM
 END:VEVENT
 
