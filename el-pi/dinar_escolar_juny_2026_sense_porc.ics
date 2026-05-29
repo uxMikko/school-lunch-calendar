@@ -5,6 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Dinar El Pi - Sense Porc
 X-WR-TIMEZONE:Europe/Madrid
+X-PUBLISHED-TTL:PT1H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VTIMEZONE
 TZID:Europe/Madrid
 BEGIN:STANDARD
@@ -24,11 +26,11 @@ END:DAYLIGHT
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:lunch-no_pork-ca-20260601@school
-DTSTART;TZID=Europe/Madrid:20260601T130000
-DTEND;TZID=Europe/Madrid:20260601T140000
+UID:lunch-no_pork-ca-20260602@school
+DTSTART;TZID=Europe/Madrid:20260602T130000
+DTEND;TZID=Europe/Madrid:20260602T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb quinoa i verdures\n\n🍽️ Segon Plat:\nPasta integral amb bolonyesa de vedella i tomàquet ECO / Fruita del temps\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nLlenties estofades amb quinoa i verdures\n\n🍽️ Segon Plat:\nPasta integral amb bolonyesa de vedella / Tomàquet ECO\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -37,11 +39,11 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-no_pork-ca-20260602@school
-DTSTART;TZID=Europe/Madrid:20260602T130000
-DTEND;TZID=Europe/Madrid:20260602T140000
+UID:lunch-no_pork-ca-20260603@school
+DTSTART;TZID=Europe/Madrid:20260603T130000
+DTEND;TZID=Europe/Madrid:20260603T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nMinestra de verdures\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, blat de moro i tomàquet\n\n🍮 Postres:\nIogurt 'La Fageda' sense sucre
+DESCRIPTION:🥗 Primer Plat:\nMinestra de verdures\n\n🍽️ Segon Plat:\nFruita tombada / Enciam ECO\, blat de moro i tomàquet\n\n🍮 Postres:\nIogurt "La Fageda" sense sucre
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
@@ -50,28 +52,15 @@ END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-UID:lunch-no_pork-ca-20260603@school
-DTSTART;TZID=Europe/Madrid:20260603T130000
-DTEND;TZID=Europe/Madrid:20260603T140000
-SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nCigrons estofats amb verdures\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps
+UID:lunch-no_pork-ca-20260604@school
+DTSTART;TZID=Europe/Madrid:20260604T130000
+DTEND;TZID=Europe/Madrid:20260604T140000
+SUMMARY:🍽️ Dinar El Pi sense Porc - ⭐ Dia Preferit ⭐
+DESCRIPTION:⭐ Dia Preferit\n🥗 Primer Plat:\nCigrons estofats amb verdures\n\n🍽️ Segon Plat:\nPeix al forn amb all i julivert i verdures / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
 DESCRIPTION:Dinar: Cigrons estofats / Peix al forn — planifica el sopar per no repetir!
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:lunch-no_pork-ca-20260604@school
-DTSTART;TZID=Europe/Madrid:20260604T130000
-DTEND;TZID=Europe/Madrid:20260604T140000
-SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nArròs amb tomàquet ECO\n\n🍽️ Segon Plat:\nPit de pollastre arrebossat amb patates / Fruita del temps\n\n🍮 Postres:\nFruita del temps
-BEGIN:VALARM
-TRIGGER;RELATED=END:PT0S
-ACTION:DISPLAY
-DESCRIPTION:Dinar: Arròs / Pit de pollastre arrebossat — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -93,11 +82,11 @@ UID:lunch-no_pork-ca-20260608@school
 DTSTART;TZID=Europe/Madrid:20260608T130000
 DTEND;TZID=Europe/Madrid:20260608T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nBròquil i pastanaga ECO\, mongeta verda i pèsols\n\n🍽️ Segon Plat:\nEstofat de sèpia amb patates / Fruita del temps\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nBròquil integral ECO\, mongeta verda i pèsols\n\n🍽️ Segon Plat:\nEstofat de sèpia amb patates / \n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Bròquil i pastanaga ECO / Estofat de sèpia — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Bròquil integral ECO / Estofat de sèpia — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -106,11 +95,11 @@ UID:lunch-no_pork-ca-20260609@school
 DTSTART;TZID=Europe/Madrid:20260609T130000
 DTEND;TZID=Europe/Madrid:20260609T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nAmanida de mongetes blanques\n\n🍽️ Segon Plat:\nPeix al forn amb salsa verda / Enciam ECO\, cogombre i pastanaga\n\n🍮 Postres:\nIogurt 'La Fageda' sense sucre
+DESCRIPTION:🥗 Primer Plat:\nAmanida fresca de mongetes blanques\n\n🍽️ Segon Plat:\nPeix al forn amb salsa verda / Enciam ECO\, cogombre i pastanaga\n\n🍮 Postres:\nIogurt "La Fageda" sense sucre
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Amanida de mongetes blanques / Peix al forn — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Amanida fresca de mongetes blanques / Peix al forn — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -145,11 +134,11 @@ UID:lunch-no_pork-ca-20260612@school
 DTSTART;TZID=Europe/Madrid:20260612T130000
 DTEND;TZID=Europe/Madrid:20260612T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nCigrons bullits amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nOus durs de pàgines amb salsa de tomàquet / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nCigrons bullits amb patata i oli d'oliva\n\n🍽️ Segon Plat:\nOus durs de pàges amb salsa de tomàquet / Enciam ECO\, blat de moro i ceba\n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Cigrons bullits / Ous durs de pàgines — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Cigrons bullits / Ous durs de pàges — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -171,11 +160,11 @@ UID:lunch-no_pork-ca-20260616@school
 DTSTART;TZID=Europe/Madrid:20260616T130000
 DTEND;TZID=Europe/Madrid:20260616T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nCrema de verdures semifibreda\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Enciam ECO\, taronja i ceba\n\n🍮 Postres:\nIogurt 'La Fageda' sense sucre
+DESCRIPTION:🥗 Primer Plat:\nCrema de verdures semifreda\n\n🍽️ Segon Plat:\nGall dindi rostit amb verdures / Enciam ECO\, taronja i ceba\n\n🍮 Postres:\nIogurt "La Fageda" sense sucre
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
-DESCRIPTION:Dinar: Crema de verdures semifibreda / Gall dindi rostit — planifica el sopar per no repetir!
+DESCRIPTION:Dinar: Crema de verdures semifreda / Gall dindi rostit — planifica el sopar per no repetir!
 END:VALARM
 END:VEVENT
 
@@ -210,7 +199,7 @@ UID:lunch-no_pork-ca-20260619@school
 DTSTART;TZID=Europe/Madrid:20260619T130000
 DTEND;TZID=Europe/Madrid:20260619T140000
 SUMMARY:🍽️ Dinar El Pi sense Porc
-DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet ECO natural\n\n🍽️ Segon Plat:\nAletes de pollastre al forn amb patates / Fruita del temps\n\n🍮 Postres:\nFruita del temps
+DESCRIPTION:🥗 Primer Plat:\nArròs amb salsa de tomàquet ECO natural\n\n🍽️ Segon Plat:\nAletes de pollastre al forn amb patates / \n\n🍮 Postres:\nFruita del temps
 BEGIN:VALARM
 TRIGGER;RELATED=END:PT0S
 ACTION:DISPLAY
